@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mei-lan-line",
+    "name": "美兰家族",
+    "rootPanda": "美兰",
+    "description": "熊猫界最庞大的明星家族，美兰是成都基地最著名的种公",
+    "color": "#4a7c32"
+  },
+  {
+    "id": "edinburgh-line",
+    "name": "爱丁堡家族",
+    "rootPanda": "甜甜 & 阳光",
+    "description": "英国唯一的熊猫家族",
+    "color": "#1a56db"
+  },
+  {
+    "id": "moscow-line",
+    "name": "莫斯科家族",
+    "rootPanda": "丁丁 & 如意",
+    "description": "俄罗斯第一熊猫家族",
+    "color": "#c2410c"
+  },
+  {
+    "id": "mei-xiang-line",
+    "name": "美香家族",
+    "rootPanda": "美香 & 添添",
+    "description": "华盛顿动物园传奇家族",
+    "color": "#7c3aed"
+  },
+  {
+    "id": "bao-bao-line",
+    "name": "宝宝家族",
+    "rootPanda": "宝宝",
+    "description": "新一代DC熊猫的血脉",
+    "color": "#0891b2"
+  },
+  {
+    "id": "ji-li-line",
+    "name": "绩丽家族",
+    "rootPanda": "绩丽",
+    "description": "成都基地新晋家族",
+    "color": "#db2777"
+  }
+]
