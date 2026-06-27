@@ -41,7 +41,7 @@ export function generateMetadata({ params }: { params: { lang: string } }): Meta
       'wechat:image': '/opengraph-image',
     },
     alternates: {
-      canonical: lang === 'en' ? 'https://pandaworld.vercel.app/en' : 'https://pandaworld.vercel.app',
+      canonical: lang === 'en' ? 'https://panda-world-one.vercel.app/en' : 'https://panda-world-one.vercel.app',
     },
   }
 }

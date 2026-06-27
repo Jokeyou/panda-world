@@ -13,6 +13,7 @@ const routeLabels: Record<string, string> = {
   'bamboo': '熊猫百科',
   'family-tree': '家族树',
   'mbti': '🐼 MBTI',
+  'birthdays': '生日追踪',
 }
 
 // Strip /en prefix for breadcrumb processing (mirrors Navbar's stripLangPrefix)

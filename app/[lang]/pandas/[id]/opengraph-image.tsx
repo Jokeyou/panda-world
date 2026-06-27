@@ -6,6 +6,8 @@ export const alt = 'Panda detail share card'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://panda-world-one.vercel.app'
+
 // Accent colors based on panda tags
 function getAccentColor(tags: string[]): string {
   if (tags.includes('顶流')) return '#F59E0B'
@@ -41,7 +43,31 @@ function getAccessoryEmoji(id: string, tags: string[]): string {
   return ''
 }
 
-export default function og({ params }: { params: { lang: string; id: string } }) {
+/**
+ * Fetch the panda's main photo and return as a base64 data URI.
+ * Falls back to null on any error (network, timeout, etc.).
+ */
+async function fetchPandaPhoto(imagePath: string): Promise<string | null> {
+  try {
+    const url = imagePath.startsWith('http') ? imagePath : `${BASE_URL}${imagePath}`
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 5000)
+
+    const res = await fetch(url, { signal: controller.signal })
+    clearTimeout(timeout)
+
+    if (!res.ok) return null
+
+    const arrayBuffer = await res.arrayBuffer()
+    const base64 = Buffer.from(arrayBuffer).toString('base64')
+    const contentType = res.headers.get('content-type') || 'image/jpeg'
+    return `data:${contentType};base64,${base64}`
+  } catch {
+    return null
+  }
+}
+
+export default async function og({ params }: { params: { lang: string; id: string } }) {
   const panda = pandas.find(p => p.id === params.id)
 
   if (!panda) {
@@ -65,6 +91,10 @@ export default function og({ params }: { params: { lang: string; id: string } })
       { ...size }
     )
   }
+
+  // Fetch panda photo: prefer photoUrl, fallback to imageUrl
+  const photoPath = (panda as any).photoUrl || (panda as any).imageUrl || ''
+  const photoDataUri = photoPath ? await fetchPandaPhoto(photoPath) : null
 
   const age = new Date().getFullYear() - new Date(panda.birthDate).getFullYear()
   const accent = getAccentColor(panda.tags)
@@ -131,7 +161,7 @@ export default function og({ params }: { params: { lang: string; id: string } })
             alignItems: 'center',
           }}
         >
-          {/* Left: Panda emoji avatar */}
+          {/* Left: Panda photo or emoji avatar */}
           <div
             style={{
               width: 240,
@@ -143,21 +173,34 @@ export default function og({ params }: { params: { lang: string; id: string } })
               justifyContent: 'center',
               flexShrink: 0,
               position: 'relative',
+              overflow: 'hidden',
             }}
           >
-            {/* Panda emoji */}
-            <span style={{ fontSize: 120, lineHeight: 1 }}>{moodEmoji}</span>
-            {/* Accessory */}
-            {accEmoji && (
-              <span style={{
-                position: 'absolute',
-                top: 8,
-                right: 55,
-                fontSize: 40,
-                lineHeight: 1,
-              }}>
-                {accEmoji}
-              </span>
+            {photoDataUri ? (
+              <img
+                src={photoDataUri}
+                alt={panda.name}
+                width={240}
+                height={240}
+                style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+              />
+            ) : (
+              <>
+                {/* Panda emoji */}
+                <span style={{ fontSize: 120, lineHeight: 1 }}>{moodEmoji}</span>
+                {/* Accessory */}
+                {accEmoji && (
+                  <span style={{
+                    position: 'absolute',
+                    top: 8,
+                    right: 55,
+                    fontSize: 40,
+                    lineHeight: 1,
+                  }}>
+                    {accEmoji}
+                  </span>
+                )}
+              </>
             )}
           </div>
 

@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import ThemeProvider from '@/components/ThemeProvider'
 import { BackToTop } from '@/components/Navbar'
+import JsonLd from '@/components/JsonLd'
+import { getOrganizationSchema, getWebSiteSchema } from '@/lib/jsonld'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -11,7 +13,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pandaworld.vercel.app'),
+  metadataBase: new URL('https://panda-world-one.vercel.app'),
   title: {
     default: '🐼 Panda World · 全球大熊猫平台',
     template: '%s | Panda World',
@@ -45,7 +47,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://pandaworld.vercel.app',
+    canonical: 'https://panda-world-one.vercel.app',
   },
   // WeChat / Chinese social platforms global defaults
   other: {
@@ -76,6 +78,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="min-h-screen flex flex-col bamboo-pattern">
+        <JsonLd data={getOrganizationSchema() as unknown as Record<string, unknown>} />
+        <JsonLd data={getWebSiteSchema() as unknown as Record<string, unknown>} />
         <ThemeProvider>
           <div className="page-enter flex flex-col flex-1">
             {children}

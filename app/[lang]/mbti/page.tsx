@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
+import JsonLd from '@/components/JsonLd'
+import { getMbtiAppSchema, getBreadcrumbSchema } from '@/lib/jsonld'
 
 export const metadata: Metadata = {
   title: '🐼 熊猫 MBTI 测试',
@@ -8,7 +10,7 @@ export const metadata: Metadata = {
     title: '熊猫 MBTI 测试 | Panda World',
     description: '5道趣味题，找到你的专属熊猫人格！',
     type: 'website',
-    images: [{ url: '/panda-og.png', width: 1200, height: 630 }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
 }
 
@@ -31,5 +33,14 @@ const MBTIContent = dynamic(() => import('./MbtiContent'), {
 })
 
 export default function MBTIPage() {
-  return <MBTIContent />
+  return (
+    <>
+      <JsonLd data={getMbtiAppSchema() as unknown as Record<string, unknown>} />
+      <JsonLd data={getBreadcrumbSchema([
+        { name: 'Panda World', url: 'https://panda-world-one.vercel.app' },
+        { name: '🐼 MBTI 测试', url: 'https://panda-world-one.vercel.app/mbti' },
+      ]) as unknown as Record<string, unknown>} />
+      <MBTIContent />
+    </>
+  )
 }

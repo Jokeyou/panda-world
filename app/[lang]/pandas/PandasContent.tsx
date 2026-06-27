@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import pandas from '@/data/pandas.json'
-import PandaAvatar from '@/components/PandaAvatar'
+import PandaImage from '@/components/PandaImage'
 import { useTranslation } from '@/lib/i18n'
 import { Search, Filter, MapPin, Calendar, Tag, ArrowUpDown } from 'lucide-react'
 
@@ -29,8 +29,8 @@ function getAge(birthDate: string): number | null {
 function SkeletonCard() {
   return (
     <div className="card p-4 sm:p-5 animate-pulse">
-      {/* Avatar placeholder */}
-      <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-4 rounded-full bg-panda-100/60 dark:bg-panda-700/60" />
+      {/* Photo placeholder */}
+      <div className="w-full h-48 mb-4 rounded-2xl bg-panda-100/60 dark:bg-panda-700/60" />
       {/* Name placeholder */}
       <div className="h-6 w-20 mx-auto rounded-lg bg-panda-100/60 dark:bg-panda-700/60 mb-2" />
       {/* Subtitle placeholder */}
@@ -265,15 +265,15 @@ export default function PandasContent() {
       ) : (
         /* ─── Grid ────────────────────────────────────── */
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
-          {filtered.map(panda => (
+          {filtered.map((panda, i) => (
             <Link
               key={panda.id}
               href={`/pandas/${panda.id}`}
               className="card p-4 sm:p-5 group block hover:-translate-y-1.5 hover:shadow-xl"
             >
-              {/* Avatar — smooth scale on hover */}
-              <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-4 transition-transform duration-500 ease-out group-hover:scale-110">
-                <PandaAvatar data={panda} size={112} />
+              {/* Photo */}
+              <div className="mb-4 overflow-hidden rounded-2xl">
+                <PandaImage panda={panda} size="card" priority={i < 4} />
               </div>
 
               {/* Name */}

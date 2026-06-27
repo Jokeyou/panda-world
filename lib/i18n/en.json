@@ -9,6 +9,7 @@
     "bamboo": "Panda Wiki",
     "familyTree": "Family Tree",
     "mbti": "🐼 MBTI",
+    "birthdays": "🎂 Birthdays",
     "ipanda": "iPanda Official",
     "searchPlaceholder": "Search pandas…",
     "searchEmpty": "No matching panda found 🐾",
@@ -21,7 +22,8 @@
     "pandas": "Panda Guide",
     "bamboo": "Panda Wiki",
     "familyTree": "Family Tree",
-    "mbti": "🐼 MBTI"
+    "mbti": "🐼 MBTI",
+    "birthdays": "🎂 Birthdays"
   },
   "home": {
     "hero": {
@@ -48,6 +50,10 @@
       "title": "⭐ Star Pandas",
       "subtitle": "Meet the world's most popular pandas",
       "viewAll": "View All"
+    },
+    "birthdaySection": {
+      "title": "🎂 This Month's Birthdays",
+      "subtitle": "Pandas celebrating their birthdays this month — send them your best wishes!"
     },
     "mbtiCta": {
       "badge": "🔥 Viral Quiz",
@@ -109,6 +115,11 @@
     "sameFamily": "Same Family",
     "commonTraits": "{count} shared traits",
     "notFound": "Not Found",
+    "photoGallery": "📸 Photo Gallery",
+    "photoGalleryEmpty": "No gallery photos yet",
+    "photoGalleryClose": "Close",
+    "photoGalleryPrev": "Previous",
+    "photoGalleryNext": "Next",
     "metaDesc": "{name}（{nameEn}）— {claimToFame}. Born: {birthPlace}, Currently at: {currentHome}."
   },
   "live": {
@@ -193,11 +204,41 @@
     "retry": "Try Again",
     "learnMore": "Want to learn more?",
     "viewPanda": "Meet the real {name} →",
-    "shareText": "You should try too → https://pandaworld.vercel.app/mbti",
+    "shareText": "You should try too → https://panda-world-one.vercel.app/mbti",
     "shareTitle": "🐼 Panda MBTI Quiz",
     "copied": "Share text copied to clipboard!",
     "metaTitle": "🐼 Panda MBTI Quiz",
     "metaDesc": "5 fun questions to find your panda personality! Are you Hua Hua, Meng Lan, or Fu Bao? Generate a share card and play with friends!"
+  },
+  "birthdays": {
+    "title": "🎂 Birthday Tracker",
+    "subtitle": "A year-round calendar tracking every giant panda's birthday. Never miss a panda's birthday again!",
+    "daysUntil": "{count} days left",
+    "today": "🎉 Birthday Today!",
+    "age": "{age} yrs",
+    "noBirthday": "No pandas have a birthday this month 🐾",
+    "unknownBirthDate": "Unknown birthday",
+    "monthLabels": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
+    "metaTitle": "🎂 Birthday Tracker · Panda Birthday Calendar",
+    "metaDesc": "A year-round giant panda birthday calendar. Track every star panda's birthday by month — never miss a panda's special day!",
+    "legend": {
+      "today": "Today's Birthday",
+      "thisMonth": "This Month",
+      "upcoming": "Upcoming"
+    }
   },
   "footer": {
     "desc": "The global giant panda livestream aggregator · Complete panda guide · Family tree · Fun quizzes. For panda lovers worldwide, all in one place.",

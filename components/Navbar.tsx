@@ -3,15 +3,15 @@
 import { useState, useRef, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { Menu, X, Globe, Camera, BookOpen, Network, Sparkles, Leaf, Search, Sun, Moon, ArrowUp } from 'lucide-react'
+import { Menu, X, Globe, Camera, BookOpen, Network, Sparkles, Leaf, Search, Sun, Moon, ArrowUp, Cake } from 'lucide-react'
 import { useTheme } from '@/components/ThemeProvider'
 import { useTranslation } from '@/lib/i18n'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import pandas from '@/data/pandas.json'
 
 // Nav item keys for translation lookup
-const navItemKeys = ['live', 'pandas', 'bamboo', 'familyTree', 'mbti'] as const
-const navIcons = [Camera, BookOpen, Leaf, Network, Sparkles] as const
+const navItemKeys = ['live', 'pandas', 'bamboo', 'familyTree', 'mbti', 'birthdays'] as const
+const navIcons = [Camera, BookOpen, Leaf, Network, Sparkles, Cake] as const
 
 const navItems = [
   { href: '/live', i18nKey: 'nav.live' as const, icon: Camera },
@@ -19,6 +19,7 @@ const navItems = [
   { href: '/bamboo', i18nKey: 'nav.bamboo' as const, icon: Leaf },
   { href: '/family-tree', i18nKey: 'nav.familyTree' as const, icon: Network },
   { href: '/mbti', i18nKey: 'nav.mbti' as const, icon: Sparkles },
+  { href: '/birthdays', i18nKey: 'nav.birthdays' as const, icon: Cake },
 ]
 
 // Helper: strip /en prefix from path for active-link matching

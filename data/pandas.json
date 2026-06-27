@@ -3,7 +3,10 @@
     "id": "hua-hua",
     "name": "花花",
     "nameEn": "Hua Hua",
-    "nicknames": ["果赖", "饭团子"],
+    "nicknames": [
+      "果赖",
+      "饭团子"
+    ],
     "gender": "female",
     "birthDate": "2020-07-04",
     "birthPlace": "成都大熊猫繁育研究基地",
@@ -11,7 +14,12 @@
     "mother": "成功",
     "father": "美兰",
     "weight": "约100kg",
-    "personality": ["温顺", "呆萌", "慢性子", "吃货"],
+    "personality": [
+      "温顺",
+      "呆萌",
+      "慢性子",
+      "吃货"
+    ],
     "claimToFame": "因为长得太胖被误认为怀孕，其实是吃太多",
     "funFacts": [
       "右后腿先天外翻，走路一扭一扭",
@@ -19,22 +27,50 @@
       "抢不过同龄熊猫的竹子，经常饿肚子",
       "因为太可爱成为成都文旅荣誉局长"
     ],
-    "tags": ["顶流", "成都", "女明星"],
+    "tags": [
+      "顶流",
+      "成都",
+      "女明星"
+    ],
     "imageUrl": "/pandas/hua-hua.jpg",
     "spectacleNumber": "1231",
     "familyId": "mei-lan-line",
     "life_events": [
-      { "date": "2020-07-04", "title": "🐣 出生", "description": "在成都大熊猫繁育研究基地出生，母亲成功、父亲美兰" },
-      { "date": "2020-10-15", "title": "👶 首次亮相", "description": "在熊猫幼儿园首次与游客见面，圆滚滚的模样萌翻全场" },
-      { "date": "2021-06-01", "title": "🌟 获得昵称", "description": "饲养员用四川话喊'果赖'（过来），这个昵称迅速走红网络" },
-      { "date": "2023-03-20", "title": "🏆 成都文旅荣誉局长", "description": "因超高人气被授予成都文旅荣誉局长称号" }
+      {
+        "date": "2020-07-04",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，母亲成功、父亲美兰"
+      },
+      {
+        "date": "2020-10-15",
+        "title": "👶 首次亮相",
+        "description": "在熊猫幼儿园首次与游客见面，圆滚滚的模样萌翻全场"
+      },
+      {
+        "date": "2021-06-01",
+        "title": "🌟 获得昵称",
+        "description": "饲养员用四川话喊'果赖'（过来），这个昵称迅速走红网络"
+      },
+      {
+        "date": "2023-03-20",
+        "title": "🏆 成都文旅荣誉局长",
+        "description": "因超高人气被授予成都文旅荣誉局长称号"
+      }
+    ],
+    "photoUrl": "/pandas/hua-hua.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/hua-hua.jpg", "credit": "" }
     ]
   },
   {
     "id": "meng-lan",
     "name": "萌兰",
     "nameEn": "Meng Lan",
-    "nicknames": ["么么儿", "越狱高手"],
+    "nicknames": [
+      "么么儿",
+      "越狱高手"
+    ],
     "gender": "male",
     "birthDate": "2015-07-04",
     "birthPlace": "成都大熊猫繁育研究基地",
@@ -42,7 +78,12 @@
     "mother": "萌萌",
     "father": "美兰",
     "weight": "约130kg",
-    "personality": ["活泼", "聪明", "胆子大", "战斗力强"],
+    "personality": [
+      "活泼",
+      "聪明",
+      "胆子大",
+      "战斗力强"
+    ],
     "claimToFame": "多次策划越狱，是熊猫界'越狱专家'",
     "funFacts": [
       "花花的同父异母哥哥",
@@ -50,22 +91,54 @@
       "智商极高，会玩各种丰容玩具",
       "北京动物园的'西直门三太子'"
     ],
-    "tags": ["顶流", "北京", "越狱王"],
+    "tags": [
+      "顶流",
+      "北京",
+      "越狱王"
+    ],
     "imageUrl": "/pandas/meng-lan.jpg",
     "spectacleNumber": "995",
     "familyId": "mei-lan-line",
     "life_events": [
-      { "date": "2015-07-04", "title": "🐣 出生", "description": "在成都大熊猫繁育研究基地出生，母亲萌萌、父亲美兰" },
-      { "date": "2017-09-21", "title": "✈️ 搬家北京", "description": "从成都搬家到北京动物园，开启新生活" },
-      { "date": "2021-12-15", "title": "🔓 越狱名场面", "description": "爬上围栏顶部差点成功越狱，被全网直播，一战成名" },
-      { "date": "2023-05-10", "title": "👑 西直门三太子", "description": "因超高人气和战斗力被封为'西直门三太子'" }
+      {
+        "date": "2015-07-04",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，母亲萌萌、父亲美兰"
+      },
+      {
+        "date": "2017-09-21",
+        "title": "✈️ 搬家北京",
+        "description": "从成都搬家到北京动物园，开启新生活"
+      },
+      {
+        "date": "2021-12-15",
+        "title": "🔓 越狱名场面",
+        "description": "爬上围栏顶部差点成功越狱，被全网直播，一战成名"
+      },
+      {
+        "date": "2023-05-10",
+        "title": "👑 西直门三太子",
+        "description": "因超高人气和战斗力被封为'西直门三太子'"
+      }
+    ],
+    "photoUrl": "/pandas/meng-lan.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/meng-lan.jpg", "credit": "" },
+      { "url": "/pandas/meng-lan-2.jpg", "credit": "" },
+      { "url": "/pandas/meng-lan-3.jpg", "credit": "" },
+      { "url": "/pandas/meng-lan-4.jpg", "credit": "" },
+      { "url": "/pandas/meng-lan-5.jpg", "credit": "" }
     ]
   },
   {
     "id": "fu-bao",
     "name": "福宝",
     "nameEn": "Fu Bao",
-    "nicknames": ["福公主", "龙仁福氏"],
+    "nicknames": [
+      "福公主",
+      "龙仁福氏"
+    ],
     "gender": "female",
     "birthDate": "2020-07-20",
     "birthPlace": "韩国三星爱宝乐园",
@@ -73,7 +146,12 @@
     "mother": "爱宝",
     "father": "乐宝",
     "weight": "约95kg",
-    "personality": ["调皮", "粘人", "爱撒娇", "镜头感强"],
+    "personality": [
+      "调皮",
+      "粘人",
+      "爱撒娇",
+      "镜头感强"
+    ],
     "claimToFame": "在韩国出生的大熊猫，拥有百万韩国粉丝",
     "funFacts": [
       "韩国饲养员姜爷爷叫她'福公主'",
@@ -81,22 +159,52 @@
       "2024年回到中国，韩国粉丝痛哭送别",
       "她的成长视频在YouTube上播放量破亿"
     ],
-    "tags": ["顶流", "海归", "韩国"],
+    "tags": [
+      "顶流",
+      "海归",
+      "韩国"
+    ],
     "imageUrl": "/pandas/fu-bao.jpg",
     "spectacleNumber": "1228",
     "familyId": "le-bao-line",
     "life_events": [
-      { "date": "2020-07-20", "title": "🐣 出生", "description": "在韩国三星爱宝乐园出生，母亲爱宝、父亲乐宝" },
-      { "date": "2020-11-04", "title": "👶 首次公开", "description": "在爱宝乐园首次向公众亮相，成为韩国万人迷" },
-      { "date": "2021-01-04", "title": "🎬 纪录片上映", "description": "专属纪录片在韩国上映，记录她的成长点滴" },
-      { "date": "2024-04-03", "title": "✈️ 回到中国", "description": "结束韩国旅居生活，回到卧龙神树坪基地，韩国粉丝痛哭送别" }
+      {
+        "date": "2020-07-20",
+        "title": "🐣 出生",
+        "description": "在韩国三星爱宝乐园出生，母亲爱宝、父亲乐宝"
+      },
+      {
+        "date": "2020-11-04",
+        "title": "👶 首次公开",
+        "description": "在爱宝乐园首次向公众亮相，成为韩国万人迷"
+      },
+      {
+        "date": "2021-01-04",
+        "title": "🎬 纪录片上映",
+        "description": "专属纪录片在韩国上映，记录她的成长点滴"
+      },
+      {
+        "date": "2024-04-03",
+        "title": "✈️ 回到中国",
+        "description": "结束韩国旅居生活，回到卧龙神树坪基地，韩国粉丝痛哭送别"
+      }
+    ],
+    "photoUrl": "/pandas/fu-bao.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/fu-bao.jpg", "credit": "" },
+      { "url": "/pandas/fu-bao-2.jpg", "credit": "" },
+      { "url": "/pandas/fu-bao-3.jpg", "credit": "" },
+      { "url": "/pandas/fu-bao-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "xiang-xiang",
     "name": "香香",
     "nameEn": "Xiang Xiang",
-    "nicknames": ["香公主"],
+    "nicknames": [
+      "香公主"
+    ],
     "gender": "female",
     "birthDate": "2017-06-12",
     "birthPlace": "日本东京上野动物园",
@@ -104,7 +212,11 @@
     "mother": "仙女",
     "father": "比力",
     "weight": "约100kg",
-    "personality": ["优雅", "安静", "独立"],
+    "personality": [
+      "优雅",
+      "安静",
+      "独立"
+    ],
     "claimToFame": "在日本出生的人气公主，引发'熊猫经济'现象",
     "funFacts": [
       "2017年出生时日本全国狂欢",
@@ -112,22 +224,53 @@
       "为日本带来超过500亿日元经济效益",
       "2023年回到中国，日本粉丝包机送别"
     ],
-    "tags": ["海归", "日本", "公主"],
+    "tags": [
+      "海归",
+      "日本",
+      "公主"
+    ],
     "imageUrl": "/pandas/xiang-xiang.jpg",
     "spectacleNumber": "1101",
     "familyId": "bi-li-line",
     "life_events": [
-      { "date": "2017-06-12", "title": "🐣 出生", "description": "在日本东京上野动物园出生，日本全国狂欢庆祝" },
-      { "date": "2017-12-19", "title": "🌟 首次亮相", "description": "首次对公众开放参观，抽签中签率仅1%引发轰动" },
-      { "date": "2022-06-12", "title": "🎂 五岁生日", "description": "上野动物园举办盛大生日会，日本粉丝排队数小时" },
-      { "date": "2023-02-21", "title": "✈️ 回到中国", "description": "回到雅安碧峰峡基地，日本粉丝包机送别，500亿日元经济效应落幕" }
+      {
+        "date": "2017-06-12",
+        "title": "🐣 出生",
+        "description": "在日本东京上野动物园出生，日本全国狂欢庆祝"
+      },
+      {
+        "date": "2017-12-19",
+        "title": "🌟 首次亮相",
+        "description": "首次对公众开放参观，抽签中签率仅1%引发轰动"
+      },
+      {
+        "date": "2022-06-12",
+        "title": "🎂 五岁生日",
+        "description": "上野动物园举办盛大生日会，日本粉丝排队数小时"
+      },
+      {
+        "date": "2023-02-21",
+        "title": "✈️ 回到中国",
+        "description": "回到雅安碧峰峡基地，日本粉丝包机送别，500亿日元经济效应落幕"
+      }
+    ],
+    "photoUrl": "/pandas/xiang-xiang.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/xiang-xiang.jpg", "credit": "" },
+      { "url": "/pandas/xiang-xiang-2.jpg", "credit": "" },
+      { "url": "/pandas/xiang-xiang-3.jpg", "credit": "" },
+      { "url": "/pandas/xiang-xiang-4.jpg", "credit": "" },
+      { "url": "/pandas/xiang-xiang-5.jpg", "credit": "" }
     ]
   },
   {
     "id": "qi-yi",
     "name": "奇一",
     "nameEn": "Qi Yi",
-    "nicknames": ["抱腿熊"],
+    "nicknames": [
+      "抱腿熊"
+    ],
     "gender": "female",
     "birthDate": "2016-07-01",
     "birthPlace": "成都大熊猫繁育研究基地",
@@ -135,7 +278,11 @@
     "mother": "奇缘",
     "father": "勇勇",
     "weight": "约85kg",
-    "personality": ["粘人", "活泼", "好奇"],
+    "personality": [
+      "粘人",
+      "活泼",
+      "好奇"
+    ],
     "claimToFame": "一只抱饲养员大腿的视频全球爆红",
     "funFacts": [
       "2016年一段抱腿视频在Facebook上播放量破2亿",
@@ -143,22 +290,52 @@
       "被评为'全球最粘人的熊猫'",
       "带动了熊猫表情包文化"
     ],
-    "tags": ["网红", "成都", "表情包"],
+    "tags": [
+      "网红",
+      "成都",
+      "表情包"
+    ],
     "imageUrl": "/pandas/qi-yi.jpg",
     "spectacleNumber": "1068",
     "familyId": "yong-yong-line",
     "life_events": [
-      { "date": "2016-07-01", "title": "🐣 出生", "description": "在成都大熊猫繁育研究基地出生，母亲奇缘、父亲勇勇" },
-      { "date": "2016-10-10", "title": "🎬 全球爆红", "description": "一段抱饲养员大腿的视频在Facebook播放量突破2亿" },
-      { "date": "2017-03-15", "title": "🏆 最粘人熊猫", "description": "被全球粉丝评为'全球最粘人的熊猫'" },
-      { "date": "2018-09-01", "title": "📱 表情包时代", "description": "抱腿形象被制成大量表情包，成为熊猫表情包文化代表" }
+      {
+        "date": "2016-07-01",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，母亲奇缘、父亲勇勇"
+      },
+      {
+        "date": "2016-10-10",
+        "title": "🎬 全球爆红",
+        "description": "一段抱饲养员大腿的视频在Facebook播放量突破2亿"
+      },
+      {
+        "date": "2017-03-15",
+        "title": "🏆 最粘人熊猫",
+        "description": "被全球粉丝评为'全球最粘人的熊猫'"
+      },
+      {
+        "date": "2018-09-01",
+        "title": "📱 表情包时代",
+        "description": "抱腿形象被制成大量表情包，成为熊猫表情包文化代表"
+      }
+    ],
+    "photoUrl": "/pandas/qi-yi.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/qi-yi.jpg", "credit": "" },
+      { "url": "/pandas/qi-yi-2.jpg", "credit": "" },
+      { "url": "/pandas/qi-yi-3.jpg", "credit": "" },
+      { "url": "/pandas/qi-yi-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "ya-ya",
     "name": "丫丫",
     "nameEn": "Ya Ya",
-    "nicknames": ["坚强熊"],
+    "nicknames": [
+      "坚强熊"
+    ],
     "gender": "female",
     "birthDate": "2000-08-03",
     "birthPlace": "北京动物园",
@@ -166,7 +343,11 @@
     "mother": "乐乐",
     "father": "迎迎",
     "weight": "约80kg",
-    "personality": ["坚韧", "温和", "安静"],
+    "personality": [
+      "坚韧",
+      "温和",
+      "安静"
+    ],
     "claimToFame": "从孟菲斯动物园归国，引发全网关注",
     "funFacts": [
       "在美国孟菲斯动物园生活了20年",
@@ -174,22 +355,52 @@
       "回国后状态明显变好，体重回升",
       "成为中美熊猫外交的标志性人物"
     ],
-    "tags": ["海归", "北京", "坚强"],
+    "tags": [
+      "海归",
+      "北京",
+      "坚强"
+    ],
     "imageUrl": "/pandas/ya-ya.jpg",
     "spectacleNumber": "507",
     "familyId": "le-le-line-old",
     "life_events": [
-      { "date": "2000-08-03", "title": "🐣 出生", "description": "在北京动物园出生，母亲乐乐、父亲迎迎" },
-      { "date": "2003-04-07", "title": "✈️ 赴美旅居", "description": "前往美国孟菲斯动物园，开始长达20年的海外生活" },
-      { "date": "2023-04-27", "title": "🏠 归国回家", "description": "结束20年旅美生涯回到北京动物园，全网直播千万人观看" },
-      { "date": "2023-09-01", "title": "💪 状态恢复", "description": "回国后体重明显回升，状态大幅改善，成为坚强象征" }
+      {
+        "date": "2000-08-03",
+        "title": "🐣 出生",
+        "description": "在北京动物园出生，母亲乐乐、父亲迎迎"
+      },
+      {
+        "date": "2003-04-07",
+        "title": "✈️ 赴美旅居",
+        "description": "前往美国孟菲斯动物园，开始长达20年的海外生活"
+      },
+      {
+        "date": "2023-04-27",
+        "title": "🏠 归国回家",
+        "description": "结束20年旅美生涯回到北京动物园，全网直播千万人观看"
+      },
+      {
+        "date": "2023-09-01",
+        "title": "💪 状态恢复",
+        "description": "回国后体重明显回升，状态大幅改善，成为坚强象征"
+      }
+    ],
+    "photoUrl": "/pandas/ya-ya.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/ya-ya.jpg", "credit": "" },
+      { "url": "/pandas/ya-ya-2.jpg", "credit": "" },
+      { "url": "/pandas/ya-ya-3.jpg", "credit": "" },
+      { "url": "/pandas/ya-ya-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "bao-li",
     "name": "宝力",
     "nameEn": "Bao Li",
-    "nicknames": ["DC新星"],
+    "nicknames": [
+      "DC新星"
+    ],
     "gender": "male",
     "birthDate": "2021-08-04",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -197,7 +408,11 @@
     "mother": "宝宝",
     "father": "未知",
     "weight": "约90kg",
-    "personality": ["活泼", "好奇", "适应力强"],
+    "personality": [
+      "活泼",
+      "好奇",
+      "适应力强"
+    ],
     "claimToFame": "2024年赴美，成为华盛顿新一代熊猫明星",
     "funFacts": [
       "2024年10月抵达华盛顿，2025年1月正式亮相",
@@ -205,29 +420,53 @@
       "名字'宝力'意为'珍贵的力量'",
       "他的曾祖母是著名的'玲玲'"
     ],
-    "tags": ["美国", "DC", "新一代"],
+    "tags": [
+      "美国",
+      "DC",
+      "新一代"
+    ],
     "imageUrl": "/pandas/bao-li.jpg",
     "spectacleNumber": "1340",
     "familyId": "bao-bao-line",
     "life_events": [
-      { "date": "2021-08-04", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲宝宝" },
-      { "date": "2024-10-15", "title": "✈️ 赴美亮相", "description": "抵达华盛顿史密森尼国家动物园，40个摄像头全天直播" },
-      { "date": "2025-01-24", "title": "🌟 正式展出", "description": "在华盛顿正式对公众亮相，成为DC新一代熊猫明星" }
-    ]
+      {
+        "date": "2021-08-04",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲宝宝"
+      },
+      {
+        "date": "2024-10-15",
+        "title": "✈️ 赴美亮相",
+        "description": "抵达华盛顿史密森尼国家动物园，40个摄像头全天直播"
+      },
+      {
+        "date": "2025-01-24",
+        "title": "🌟 正式展出",
+        "description": "在华盛顿正式对公众亮相，成为DC新一代熊猫明星"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Bao%20Li",
+    "photoCredit": ""
   },
   {
     "id": "qing-bao",
     "name": "青宝",
     "nameEn": "Qing Bao",
-    "nicknames": ["小青"],
+    "nicknames": [
+      "小青"
+    ],
     "gender": "female",
-    "birthDate": "2021-09-04",
+    "birthDate": "2021-09-12",
     "birthPlace": "中国大熊猫保护研究中心",
     "currentHome": "华盛顿史密森尼国家动物园",
     "mother": "青花",
     "father": "未知",
     "weight": "约80kg",
-    "personality": ["文静", "优雅", "观察力强"],
+    "personality": [
+      "文静",
+      "优雅",
+      "观察力强"
+    ],
     "claimToFame": "和宝力一起赴美，华盛顿熊猫外交新使者",
     "funFacts": [
       "和宝力同批赴美的'熊猫搭档'",
@@ -235,21 +474,42 @@
       "喜欢爬树，经常待在最高处",
       "她的妈妈'青花'也是明星熊猫"
     ],
-    "tags": ["美国", "DC", "新一代"],
+    "tags": [
+      "美国",
+      "DC",
+      "新一代"
+    ],
     "imageUrl": "/pandas/qing-bao.jpg",
     "spectacleNumber": "1342",
     "familyId": "qing-hua-line",
     "life_events": [
-      { "date": "2021-09-04", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲青花" },
-      { "date": "2024-10-15", "title": "✈️ 赴美同行", "description": "与宝力同批抵达华盛顿史密森尼国家动物园" },
-      { "date": "2025-01-24", "title": "🌟 正式展出", "description": "在华盛顿正式亮相，喜欢在高处爬树引起关注" }
-    ]
+      {
+        "date": "2021-09-12",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲青花"
+      },
+      {
+        "date": "2024-10-15",
+        "title": "✈️ 赴美同行",
+        "description": "与宝力同批抵达华盛顿史密森尼国家动物园"
+      },
+      {
+        "date": "2025-01-24",
+        "title": "🌟 正式展出",
+        "description": "在华盛顿正式亮相，喜欢在高处爬树引起关注"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Qing%20Bao",
+    "photoCredit": ""
   },
   {
     "id": "tian-tian-edinburgh",
     "name": "甜甜",
     "nameEn": "Tian Tian",
-    "nicknames": ["甜女士", "Sweetie"],
+    "nicknames": [
+      "甜女士",
+      "Sweetie"
+    ],
     "gender": "female",
     "birthDate": "2003-08-24",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -257,7 +517,11 @@
     "mother": "未知",
     "father": "未知",
     "weight": "约100kg",
-    "personality": ["温柔", "优雅", "有母性"],
+    "personality": [
+      "温柔",
+      "优雅",
+      "有母性"
+    ],
     "claimToFame": "英国唯一的雌性大熊猫，在爱丁堡生活了十几年",
     "funFacts": [
       "2011年抵达爱丁堡，是英国第一批大熊猫",
@@ -265,22 +529,46 @@
       "爱丁堡动物园的绝对明星",
       "每年有超过80万游客来看她"
     ],
-    "tags": ["英国", "爱丁堡", "资深"],
+    "tags": [
+      "英国",
+      "爱丁堡",
+      "资深"
+    ],
     "imageUrl": "/pandas/tian-tian.jpg",
     "spectacleNumber": "534",
     "familyId": "edinburgh-line",
     "life_events": [
-      { "date": "2003-08-24", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生" },
-      { "date": "2011-12-04", "title": "✈️ 抵达英国", "description": "抵达爱丁堡动物园，成为英国第一批大熊猫" },
-      { "date": "2014-04-13", "title": "🧬 繁育尝试", "description": "开始多次人工授精尝试，虽未成功但引发全英关注" },
-      { "date": "2021-12-04", "title": "🎂 英国十年", "description": "在爱丁堡生活十周年，动物园举办盛大纪念活动" }
-    ]
+      {
+        "date": "2003-08-24",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生"
+      },
+      {
+        "date": "2011-12-04",
+        "title": "✈️ 抵达英国",
+        "description": "抵达爱丁堡动物园，成为英国第一批大熊猫"
+      },
+      {
+        "date": "2014-04-13",
+        "title": "🧬 繁育尝试",
+        "description": "开始多次人工授精尝试，虽未成功但引发全英关注"
+      },
+      {
+        "date": "2021-12-04",
+        "title": "🎂 英国十年",
+        "description": "在爱丁堡生活十周年，动物园举办盛大纪念活动"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Tian%20Tian",
+    "photoCredit": ""
   },
   {
     "id": "yang-guang",
     "name": "阳光",
     "nameEn": "Yang Guang",
-    "nicknames": ["阳光男孩"],
+    "nicknames": [
+      "阳光男孩"
+    ],
     "gender": "male",
     "birthDate": "2003-08-14",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -288,7 +576,11 @@
     "mother": "未知",
     "father": "未知",
     "weight": "约120kg",
-    "personality": ["阳光", "贪吃", "懒散"],
+    "personality": [
+      "阳光",
+      "贪吃",
+      "懒散"
+    ],
     "claimToFame": "英国唯一的雄性大熊猫",
     "funFacts": [
       "和甜甜同年来到爱丁堡",
@@ -296,29 +588,53 @@
       "喜欢在户外场地晒太阳",
       "名字虽然在英国但实力派吃播"
     ],
-    "tags": ["英国", "爱丁堡", "吃播"],
+    "tags": [
+      "英国",
+      "爱丁堡",
+      "吃播"
+    ],
     "imageUrl": "/pandas/yang-guang.jpg",
     "spectacleNumber": "533",
     "familyId": "edinburgh-line",
     "life_events": [
-      { "date": "2003-08-14", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生" },
-      { "date": "2011-12-04", "title": "✈️ 抵达英国", "description": "与甜甜同批抵达爱丁堡动物园" },
-      { "date": "2018-05-20", "title": "🍽️ 吃播走红", "description": "每天吃30公斤竹子的视频走红，被封为'实力派吃播'" }
-    ]
+      {
+        "date": "2003-08-14",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生"
+      },
+      {
+        "date": "2011-12-04",
+        "title": "✈️ 抵达英国",
+        "description": "与甜甜同批抵达爱丁堡动物园"
+      },
+      {
+        "date": "2018-05-20",
+        "title": "🍽️ 吃播走红",
+        "description": "每天吃30公斤竹子的视频走红，被封为'实力派吃播'"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Yang%20Guang",
+    "photoCredit": ""
   },
   {
     "id": "ding-ding",
     "name": "丁丁",
     "nameEn": "Ding Ding",
-    "nicknames": ["喀秋莎妈妈"],
+    "nicknames": [
+      "喀秋莎妈妈"
+    ],
     "gender": "female",
-    "birthDate": "2018-07-30",
+    "birthDate": "2017-07-30",
     "birthPlace": "中国大熊猫保护研究中心",
     "currentHome": "俄罗斯莫斯科动物园",
     "mother": "未知",
     "father": "未知",
     "weight": "约95kg",
-    "personality": ["温柔", "耐心", "谨慎"],
+    "personality": [
+      "温柔",
+      "耐心",
+      "谨慎"
+    ],
     "claimToFame": "在俄罗斯生下第一只熊猫宝宝'喀秋莎'",
     "funFacts": [
       "2019年和如意一起抵达莫斯科",
@@ -326,21 +642,41 @@
       "幼崽命名'喀秋莎'引发俄罗斯全民投票",
       "莫斯科动物园为她装了20台夜视彩色摄像头"
     ],
-    "tags": ["俄罗斯", "莫斯科", "妈妈"],
+    "tags": [
+      "俄罗斯",
+      "莫斯科",
+      "妈妈"
+    ],
     "imageUrl": "/pandas/ding-ding.jpg",
     "spectacleNumber": "1170",
     "familyId": "moscow-line",
     "life_events": [
-      { "date": "2018-07-30", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生" },
-      { "date": "2019-04-29", "title": "✈️ 抵达莫斯科", "description": "与如意一起抵达莫斯科动物园" },
-      { "date": "2023-08-24", "title": "👶 生下喀秋莎", "description": "在莫斯科生下俄罗斯第一只熊猫幼崽，全民投票命名'喀秋莎'" }
-    ]
+      {
+        "date": "2017-07-30",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心卧龙神树坪基地出生"
+      },
+      {
+        "date": "2019-04-29",
+        "title": "✈️ 抵达莫斯科",
+        "description": "与如意一起抵达莫斯科动物园"
+      },
+      {
+        "date": "2023-08-24",
+        "title": "👶 生下喀秋莎",
+        "description": "在莫斯科生下俄罗斯第一只熊猫幼崽，全民投票命名'喀秋莎'"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Ding%20Ding",
+    "photoCredit": ""
   },
   {
     "id": "ru-yi",
     "name": "如意",
     "nameEn": "Ru Yi",
-    "nicknames": ["喀秋莎爸爸"],
+    "nicknames": [
+      "喀秋莎爸爸"
+    ],
     "gender": "male",
     "birthDate": "2016-07-31",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -348,7 +684,11 @@
     "mother": "未知",
     "father": "未知",
     "weight": "约125kg",
-    "personality": ["强壮", "活泼", "调皮"],
+    "personality": [
+      "强壮",
+      "活泼",
+      "调皮"
+    ],
     "claimToFame": "在俄罗斯生活适应极好，战斗力猛增",
     "funFacts": [
       "到俄罗斯后体重暴涨，变得非常强壮",
@@ -356,22 +696,46 @@
       "被俄罗斯粉丝称为'功夫熊猫'",
       "喜欢在雪地里打滚，完全适应寒冷气候"
     ],
-    "tags": ["俄罗斯", "莫斯科", "功夫熊猫"],
+    "tags": [
+      "俄罗斯",
+      "莫斯科",
+      "功夫熊猫"
+    ],
     "imageUrl": "/pandas/ru-yi.jpg",
     "spectacleNumber": "1069",
     "familyId": "moscow-line",
     "life_events": [
-      { "date": "2016-07-31", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生" },
-      { "date": "2019-04-29", "title": "✈️ 抵达莫斯科", "description": "与丁丁一起抵达莫斯科动物园" },
-      { "date": "2021-12-01", "title": "💪 功夫熊猫", "description": "体重暴涨后变得非常强壮，被俄罗斯粉丝称为'功夫熊猫'" },
-      { "date": "2023-08-24", "title": "👶 当爸爸了", "description": "与丁丁生下俄罗斯第一只熊猫宝宝喀秋莎" }
-    ]
+      {
+        "date": "2016-07-31",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生"
+      },
+      {
+        "date": "2019-04-29",
+        "title": "✈️ 抵达莫斯科",
+        "description": "与丁丁一起抵达莫斯科动物园"
+      },
+      {
+        "date": "2021-12-01",
+        "title": "💪 功夫熊猫",
+        "description": "体重暴涨后变得非常强壮，被俄罗斯粉丝称为'功夫熊猫'"
+      },
+      {
+        "date": "2023-08-24",
+        "title": "👶 当爸爸了",
+        "description": "与丁丁生下俄罗斯第一只熊猫宝宝喀秋莎"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Ru%20Yi",
+    "photoCredit": ""
   },
   {
     "id": "tai-shan",
     "name": "泰山",
     "nameEn": "Tai Shan",
-    "nicknames": ["美国之子"],
+    "nicknames": [
+      "美国之子"
+    ],
     "gender": "male",
     "birthDate": "2005-07-09",
     "birthPlace": "华盛顿史密森尼国家动物园",
@@ -379,7 +743,11 @@
     "mother": "美香",
     "father": "添添",
     "weight": "约120kg",
-    "personality": ["稳重", "温和", "绅士"],
+    "personality": [
+      "稳重",
+      "温和",
+      "绅士"
+    ],
     "claimToFame": "在华盛顿出生的第一只存活熊猫，美国全民宠儿",
     "funFacts": [
       "名字意为'和平之山'",
@@ -387,21 +755,41 @@
       "在华盛顿生活了7年，2010年回到中国",
       "他的出生引发了全美'熊猫狂热'"
     ],
-    "tags": ["海归", "美国", "传奇"],
+    "tags": [
+      "海归",
+      "美国",
+      "传奇"
+    ],
     "imageUrl": "/pandas/tai-shan.jpg",
     "spectacleNumber": "606",
     "familyId": "mei-xiang-line",
     "life_events": [
-      { "date": "2005-07-09", "title": "🐣 出生", "description": "在华盛顿史密森尼国家动物园出生，全美2000万人观看直播" },
-      { "date": "2005-12-08", "title": "🌟 首次亮相", "description": "在华盛顿首次公开亮相，引发全美'熊猫狂热'" },
-      { "date": "2010-02-04", "title": "✈️ 回到中国", "description": "结束7年华盛顿生活，回到中国大熊猫保护研究中心都江堰基地" }
-    ]
+      {
+        "date": "2005-07-09",
+        "title": "🐣 出生",
+        "description": "在华盛顿史密森尼国家动物园出生，全美2000万人观看直播"
+      },
+      {
+        "date": "2005-12-08",
+        "title": "🌟 首次亮相",
+        "description": "在华盛顿首次公开亮相，引发全美'熊猫狂热'"
+      },
+      {
+        "date": "2010-02-04",
+        "title": "✈️ 回到中国",
+        "description": "结束7年华盛顿生活，回到中国大熊猫保护研究中心都江堰基地"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Tai%20Shan",
+    "photoCredit": ""
   },
   {
     "id": "he-ye",
     "name": "和叶",
     "nameEn": "He Ye",
-    "nicknames": ["叶叶"],
+    "nicknames": [
+      "叶叶"
+    ],
     "gender": "female",
     "birthDate": "2020-07-04",
     "birthPlace": "成都大熊猫繁育研究基地",
@@ -409,7 +797,11 @@
     "mother": "成功",
     "father": "美兰",
     "weight": "约90kg",
-    "personality": ["活泼", "调皮", "爱打架"],
+    "personality": [
+      "活泼",
+      "调皮",
+      "爱打架"
+    ],
     "claimToFame": "花花的双胞胎姐妹，性格完全相反",
     "funFacts": [
       "和花花是同胎姐妹，但性格天差地别",
@@ -417,30 +809,65 @@
       "活泼好动，是熊猫幼儿园的'大姐大'",
       "后来被确认为雌性（早期被误判为雄性）"
     ],
-    "tags": ["成都", "花花姐妹", "活泼"],
+    "tags": [
+      "成都",
+      "花花姐妹",
+      "活泼"
+    ],
     "imageUrl": "/pandas/he-ye.jpg",
     "spectacleNumber": "1232",
     "familyId": "mei-lan-line",
     "life_events": [
-      { "date": "2020-07-04", "title": "🐣 出生", "description": "在成都大熊猫繁育研究基地出生，与花花是同胎姐妹" },
-      { "date": "2021-01-10", "title": "👶 首次亮相", "description": "和花花一起在熊猫幼儿园亮相" },
-      { "date": "2022-06-15", "title": "👑 大姐大", "description": "因活泼好动、爱打架被粉丝称为熊猫幼儿园'大姐大'" },
-      { "date": "2023-12-01", "title": "🔄 性别更正", "description": "经DNA确认实际为雌性，早期被误判为雄性引发热议" }
+      {
+        "date": "2020-07-04",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，与花花是同胎姐妹"
+      },
+      {
+        "date": "2021-01-10",
+        "title": "👶 首次亮相",
+        "description": "和花花一起在熊猫幼儿园亮相"
+      },
+      {
+        "date": "2022-06-15",
+        "title": "👑 大姐大",
+        "description": "因活泼好动、爱打架被粉丝称为熊猫幼儿园'大姐大'"
+      },
+      {
+        "date": "2023-12-01",
+        "title": "🔄 性别更正",
+        "description": "经DNA确认实际为雌性，早期被误判为雄性引发热议"
+      }
+    ],
+    "photoUrl": "/pandas/he-ye.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/he-ye.jpg", "credit": "" },
+      { "url": "/pandas/he-ye-2.jpg", "credit": "" },
+      { "url": "/pandas/he-ye-3.jpg", "credit": "" },
+      { "url": "/pandas/he-ye-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "ji-xiao",
     "name": "绩笑",
     "nameEn": "Ji Xiao",
-    "nicknames": ["社恐熊"],
+    "nicknames": [
+      "社恐熊"
+    ],
     "gender": "female",
-    "birthDate": "2019-06-12",
+    "birthDate": "2019-06-05",
     "birthPlace": "成都大熊猫繁育研究基地",
     "currentHome": "成都大熊猫繁育研究基地",
     "mother": "绩丽",
-    "father": "未知",
+    "father": "美兰",
     "weight": "约85kg",
-    "personality": ["害羞", "内敛", "社恐", "温柔"],
+    "personality": [
+      "害羞",
+      "内敛",
+      "社恐",
+      "温柔"
+    ],
     "claimToFame": "因为天生社恐性格走红",
     "funFacts": [
       "被粉丝称为'社恐熊'代表",
@@ -448,21 +875,47 @@
       "不喜欢人多的场合，看到人群就躲",
       "和花花的'佛系'不同，她是真·社恐"
     ],
-    "tags": ["成都", "社恐", "可爱"],
+    "tags": [
+      "成都",
+      "社恐",
+      "可爱"
+    ],
     "imageUrl": "/pandas/ji-xiao.jpg",
     "spectacleNumber": "1159",
     "familyId": "ji-li-line",
     "life_events": [
-      { "date": "2019-06-12", "title": "🐣 出生", "description": "在成都大熊猫繁育研究基地出生，母亲绩丽" },
-      { "date": "2020-03-20", "title": "👶 首次亮相", "description": "首次露面就因害羞躲角落走红，被封'社恐熊'" },
-      { "date": "2022-08-01", "title": "📱 社恐网红", "description": "社恐视频在社交平台爆火，成为社恐年轻人精神图腾" }
+      {
+        "date": "2019-06-05",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，母亲绩丽、父亲美兰"
+      },
+      {
+        "date": "2020-03-20",
+        "title": "👶 首次亮相",
+        "description": "首次露面就因害羞躲角落走红，被封'社恐熊'"
+      },
+      {
+        "date": "2022-08-01",
+        "title": "📱 社恐网红",
+        "description": "社恐视频在社交平台爆火，成为社恐年轻人精神图腾"
+      }
+    ],
+    "photoUrl": "/pandas/ji-xiao.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/ji-xiao.jpg", "credit": "" },
+      { "url": "/pandas/ji-xiao-2.jpg", "credit": "" },
+      { "url": "/pandas/ji-xiao-3.jpg", "credit": "" },
+      { "url": "/pandas/ji-xiao-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "bing-dwen-dwen",
     "name": "冰墩墩",
     "nameEn": "Bing Dwen Dwen",
-    "nicknames": ["墩墩"],
+    "nicknames": [
+      "墩墩"
+    ],
     "gender": "male",
     "birthDate": "2022-02-04",
     "birthPlace": "北京（虚拟形象现实化）",
@@ -470,7 +923,11 @@
     "mother": "N/A",
     "father": "N/A",
     "weight": "N/A",
-    "personality": ["可爱", "活泼", "标志性"],
+    "personality": [
+      "可爱",
+      "活泼",
+      "标志性"
+    ],
     "claimToFame": "2022北京冬奥会吉祥物，全球爆红",
     "funFacts": [
       "设计灵感来自冰糖葫芦的糖衣",
@@ -478,21 +935,42 @@
       "成为全球最受欢迎的奥运吉祥物之一",
       "虽然不是真实熊猫，但它是熊猫文化全球化的标志"
     ],
-    "tags": ["冬奥", "吉祥物", "文化符号"],
+    "tags": [
+      "冬奥",
+      "吉祥物",
+      "文化符号"
+    ],
     "imageUrl": "/pandas/bing-dwen-dwen.jpg",
     "spectacleNumber": "N/A",
     "familyId": "mascot",
     "life_events": [
-      { "date": "2019-09-17", "title": "🎨 设计发布", "description": "北京冬奥组委正式发布冰墩墩作为2022冬奥会吉祥物" },
-      { "date": "2022-02-04", "title": "🏅 冬奥开幕", "description": "北京冬奥会开幕，冰墩墩正式亮相，全球爆红" },
-      { "date": "2022-02-20", "title": "📦 一墩难求", "description": "冬奥期间全球抢购，周边商品一度售罄" }
-    ]
+      {
+        "date": "2019-09-17",
+        "title": "🎨 设计发布",
+        "description": "北京冬奥组委正式发布冰墩墩作为2022冬奥会吉祥物"
+      },
+      {
+        "date": "2022-02-04",
+        "title": "🏅 冬奥开幕",
+        "description": "北京冬奥会开幕，冰墩墩正式亮相，全球爆红"
+      },
+      {
+        "date": "2022-02-20",
+        "title": "📦 一墩难求",
+        "description": "冬奥期间全球抢购，周边商品一度售罄"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Bing%20Dwen%20Dwen",
+    "photoCredit": ""
   },
   {
     "id": "ai-bao",
     "name": "爱宝",
     "nameEn": "Ai Bao",
-    "nicknames": ["爱女士", "福宝妈妈"],
+    "nicknames": [
+      "爱女士",
+      "福宝妈妈"
+    ],
     "gender": "female",
     "birthDate": "2013-07-13",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -500,7 +978,12 @@
     "mother": "新妮儿",
     "father": "未知",
     "weight": "约95kg",
-    "personality": ["温柔", "母性强", "聪明", "优雅"],
+    "personality": [
+      "温柔",
+      "母性强",
+      "聪明",
+      "优雅"
+    ],
     "claimToFame": "在韩国生下福宝，成为韩国最受欢迎的动物明星妈妈",
     "funFacts": [
       "2016年和乐宝一起旅居韩国",
@@ -508,22 +991,47 @@
       "韩国饲养员姜爷爷对她照顾无微不至",
       "2023年生下双胞胎睿宝和辉宝"
     ],
-    "tags": ["韩国", "妈妈", "自然繁育"],
+    "tags": [
+      "韩国",
+      "妈妈",
+      "自然繁育"
+    ],
     "imageUrl": "/pandas/ai-bao.jpg",
     "spectacleNumber": "880",
     "familyId": "ai-bao-line",
     "life_events": [
-      { "date": "2013-07-13", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲新妮儿" },
-      { "date": "2016-03-03", "title": "✈️ 旅居韩国", "description": "和乐宝一起抵达韩国三星爱宝乐园" },
-      { "date": "2020-07-20", "title": "👶 生下福宝", "description": "在韩国自然繁育生下福宝，是韩国首只大熊猫幼崽" },
-      { "date": "2023-07-07", "title": "👶👶 诞下双胞胎", "description": "生下双胞胎睿宝和辉宝，再次轰动韩国" }
-    ]
+      {
+        "date": "2013-07-13",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲新妮儿"
+      },
+      {
+        "date": "2016-03-03",
+        "title": "✈️ 旅居韩国",
+        "description": "和乐宝一起抵达韩国三星爱宝乐园"
+      },
+      {
+        "date": "2020-07-20",
+        "title": "👶 生下福宝",
+        "description": "在韩国自然繁育生下福宝，是韩国首只大熊猫幼崽"
+      },
+      {
+        "date": "2023-07-07",
+        "title": "👶👶 诞下双胞胎",
+        "description": "生下双胞胎睿宝和辉宝，再次轰动韩国"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Ai%20Bao",
+    "photoCredit": ""
   },
   {
     "id": "le-bao",
     "name": "乐宝",
     "nameEn": "Le Bao",
-    "nicknames": ["乐女婿", "福宝爸爸"],
+    "nicknames": [
+      "乐女婿",
+      "福宝爸爸"
+    ],
     "gender": "male",
     "birthDate": "2012-07-28",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -531,7 +1039,12 @@
     "mother": "龙欣",
     "father": "园园",
     "weight": "约120kg",
-    "personality": ["乐天", "贪吃", "佛系", "好脾气"],
+    "personality": [
+      "乐天",
+      "贪吃",
+      "佛系",
+      "好脾气"
+    ],
     "claimToFame": "福宝的爸爸，韩国粉丝心中的'乐女婿'",
     "funFacts": [
       "和爱宝一起在韩国生活，被韩国民众称为'熊猫夫妻'",
@@ -539,22 +1052,47 @@
       "喜欢在户外吃竹子，一吃就是几个小时",
       "韩国粉丝说他是'最佛系的大熊猫'"
     ],
-    "tags": ["韩国", "爸爸", "佛系"],
+    "tags": [
+      "韩国",
+      "爸爸",
+      "佛系"
+    ],
     "imageUrl": "/pandas/le-bao.jpg",
     "spectacleNumber": "855",
     "familyId": "le-bao-line",
     "life_events": [
-      { "date": "2012-07-28", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲龙欣、父亲园园" },
-      { "date": "2016-03-03", "title": "✈️ 旅居韩国", "description": "和爱宝一起抵达韩国三星爱宝乐园" },
-      { "date": "2020-07-20", "title": "👶 当爸爸了", "description": "女儿福宝出生，成为韩国最受关注的熊猫爸爸" },
-      { "date": "2023-07-07", "title": "👶👶 再当爸爸", "description": "双胞胎睿宝和辉宝出生，韩国举国欢庆" }
-    ]
+      {
+        "date": "2012-07-28",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲龙欣、父亲园园"
+      },
+      {
+        "date": "2016-03-03",
+        "title": "✈️ 旅居韩国",
+        "description": "和爱宝一起抵达韩国三星爱宝乐园"
+      },
+      {
+        "date": "2020-07-20",
+        "title": "👶 当爸爸了",
+        "description": "女儿福宝出生，成为韩国最受关注的熊猫爸爸"
+      },
+      {
+        "date": "2023-07-07",
+        "title": "👶👶 再当爸爸",
+        "description": "双胞胎睿宝和辉宝出生，韩国举国欢庆"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Le%20Bao",
+    "photoCredit": ""
   },
   {
     "id": "qi-zai",
     "name": "七仔",
     "nameEn": "Qi Zai",
-    "nicknames": ["巧克力熊", "棕色精灵"],
+    "nicknames": [
+      "巧克力熊",
+      "棕色精灵"
+    ],
     "gender": "male",
     "birthDate": "2009-11-01",
     "birthPlace": "陕西佛坪国家级自然保护区（野外发现）",
@@ -562,7 +1100,12 @@
     "mother": "未知（野外）",
     "father": "未知（野外）",
     "weight": "约110kg",
-    "personality": ["憨厚", "温和", "独特", "佛系"],
+    "personality": [
+      "憨厚",
+      "温和",
+      "独特",
+      "佛系"
+    ],
     "claimToFame": "全球唯一一只圈养的棕色大熊猫，被称为'巧克力熊'",
     "funFacts": [
       "2009年在秦岭野外被发现，当时只有2个月大",
@@ -570,22 +1113,54 @@
       "科学家至今未完全解开他棕色毛发的原因",
       "被网友称为'大熊猫界的巧克力'和'没墨了'"
     ],
-    "tags": ["棕色", "秦岭", "全球唯一", "野生"],
+    "tags": [
+      "棕色",
+      "秦岭",
+      "全球唯一",
+      "野生"
+    ],
     "imageUrl": "/pandas/qi-zai.jpg",
     "spectacleNumber": "700",
     "familyId": "qi-zai-line",
     "life_events": [
-      { "date": "2009-11-01", "title": "🐣 野外发现", "description": "在陕西佛坪国家级自然保护区被发现，约2个月大，因棕色毛发震惊学界" },
-      { "date": "2010-01-15", "title": "🏠 入驻中心", "description": "被送到秦岭大熊猫研究中心，成为全球唯一圈养棕色大熊猫" },
-      { "date": "2014-09-01", "title": "🧬 基因研究", "description": "科学家对他的棕色毛发基因展开研究，发现可能源于隐性基因突变" },
-      { "date": "2023-05-01", "title": "🌟 全球网红", "description": "棕色毛发视频在社交媒体爆红，被称为'巧克力熊'和'没墨了'" }
+      {
+        "date": "2009-11-01",
+        "title": "🐣 野外发现",
+        "description": "在陕西佛坪国家级自然保护区被发现，约2个月大，因棕色毛发震惊学界"
+      },
+      {
+        "date": "2010-01-15",
+        "title": "🏠 入驻中心",
+        "description": "被送到秦岭大熊猫研究中心，成为全球唯一圈养棕色大熊猫"
+      },
+      {
+        "date": "2014-09-01",
+        "title": "🧬 基因研究",
+        "description": "科学家对他的棕色毛发基因展开研究，发现可能源于隐性基因突变"
+      },
+      {
+        "date": "2023-05-01",
+        "title": "🌟 全球网红",
+        "description": "棕色毛发视频在社交媒体爆红，被称为'巧克力熊'和'没墨了'"
+      }
+    ],
+    "photoUrl": "/pandas/qi-zai.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/qi-zai.jpg", "credit": "" },
+      { "url": "/pandas/qi-zai-2.jpg", "credit": "" },
+      { "url": "/pandas/qi-zai-3.jpg", "credit": "" },
+      { "url": "/pandas/qi-zai-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "ao-li-ao",
     "name": "奥利奥",
     "nameEn": "Oreo",
-    "nicknames": ["饼干熊", "奥总"],
+    "nicknames": [
+      "饼干熊",
+      "奥总"
+    ],
     "gender": "male",
     "birthDate": "2012-07-28",
     "birthPlace": "成都大熊猫繁育研究基地",
@@ -593,7 +1168,12 @@
     "mother": "莉莉",
     "father": "未知",
     "weight": "约130kg",
-    "personality": ["霸气", "贪吃", "沉稳", "领地意识强"],
+    "personality": [
+      "霸气",
+      "贪吃",
+      "沉稳",
+      "领地意识强"
+    ],
     "claimToFame": "因名字叫奥利奥走红，体型巨大被称为'奥总'",
     "funFacts": [
       "名字是英文Oreo（奥利奥饼干），因黑白相间像饼干得名",
@@ -601,21 +1181,48 @@
       "从小特别能吃，体重一直超标",
       "被粉丝戏称为'奥总'，因为他走路特别有派头"
     ],
-    "tags": ["成都", "巨型", "饼干"],
+    "tags": [
+      "成都",
+      "巨型",
+      "饼干"
+    ],
     "imageUrl": "/pandas/ao-li-ao.jpg",
     "spectacleNumber": "850",
     "familyId": "li-li-line",
     "life_events": [
-      { "date": "2012-07-28", "title": "🐣 出生", "description": "在成都大熊猫繁育研究基地出生，母亲莉莉" },
-      { "date": "2013-01-20", "title": "🌟 得名奥利奥", "description": "因黑白配色酷似奥利奥饼干，被正式命名为奥利奥" },
-      { "date": "2018-06-15", "title": "👑 奥总崛起", "description": "体型巨大、走路霸气，被粉丝封为'奥总'" }
+      {
+        "date": "2012-07-28",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，母亲莉莉"
+      },
+      {
+        "date": "2013-01-20",
+        "title": "🌟 得名奥利奥",
+        "description": "因黑白配色酷似奥利奥饼干，被正式命名为奥利奥"
+      },
+      {
+        "date": "2018-06-15",
+        "title": "👑 奥总崛起",
+        "description": "体型巨大、走路霸气，被粉丝封为'奥总'"
+      }
+    ],
+    "photoUrl": "/pandas/ao-li-ao.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/ao-li-ao.jpg", "credit": "" },
+      { "url": "/pandas/ao-li-ao-2.jpg", "credit": "" },
+      { "url": "/pandas/ao-li-ao-3.jpg", "credit": "" },
+      { "url": "/pandas/ao-li-ao-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "mei-lan",
     "name": "美兰",
     "nameEn": "Mei Lan",
-    "nicknames": ["兰兰", "超级爸爸"],
+    "nicknames": [
+      "兰兰",
+      "超级爸爸"
+    ],
     "gender": "male",
     "birthDate": "2006-09-06",
     "birthPlace": "美国亚特兰大动物园",
@@ -623,7 +1230,12 @@
     "mother": "伦伦",
     "father": "洋洋",
     "weight": "约125kg",
-    "personality": ["温和", "绅士", "多情", "基因优秀"],
+    "personality": [
+      "温和",
+      "绅士",
+      "多情",
+      "基因优秀"
+    ],
     "claimToFame": "海归熊猫，是花花、萌兰、和叶等众多顶流的父亲",
     "funFacts": [
       "出生在美国亚特兰大，2010年回到中国",
@@ -631,22 +1243,52 @@
       "他的子女包括花花、萌兰、和叶等顶流明星",
       "基因极其优秀，被称为'美兰家族'的始祖"
     ],
-    "tags": ["海归", "超级爸爸", "亚特兰大"],
+    "tags": [
+      "海归",
+      "超级爸爸",
+      "亚特兰大"
+    ],
     "imageUrl": "/pandas/mei-lan.jpg",
     "spectacleNumber": "610",
     "familyId": "mei-lan-line",
     "life_events": [
-      { "date": "2006-09-06", "title": "🐣 出生", "description": "在美国亚特兰大动物园出生，母亲伦伦、父亲洋洋" },
-      { "date": "2010-02-05", "title": "✈️ 回到中国", "description": "结束旅美生活回到成都大熊猫繁育研究基地" },
-      { "date": "2015-07-04", "title": "👶 萌兰出生", "description": "与萌萌生下的萌兰出生，开启'美兰家族'传奇" },
-      { "date": "2020-07-04", "title": "👶👶 花花和叶出生", "description": "与成功生下的双胞胎花花和和叶出生，美兰家族再添顶流" }
+      {
+        "date": "2006-09-06",
+        "title": "🐣 出生",
+        "description": "在美国亚特兰大动物园出生，母亲伦伦、父亲洋洋"
+      },
+      {
+        "date": "2010-02-05",
+        "title": "✈️ 回到中国",
+        "description": "结束旅美生活回到成都大熊猫繁育研究基地"
+      },
+      {
+        "date": "2015-07-04",
+        "title": "👶 萌兰出生",
+        "description": "与萌萌生下的萌兰出生，开启'美兰家族'传奇"
+      },
+      {
+        "date": "2020-07-04",
+        "title": "👶👶 花花和叶出生",
+        "description": "与成功生下的双胞胎花花和和叶出生，美兰家族再添顶流"
+      }
+    ],
+    "photoUrl": "/pandas/mei-lan.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/mei-lan.jpg", "credit": "" },
+      { "url": "/pandas/mei-lan-2.jpg", "credit": "" },
+      { "url": "/pandas/mei-lan-3.jpg", "credit": "" }
     ]
   },
   {
     "id": "meng-meng",
     "name": "萌萌",
     "nameEn": "Meng Meng",
-    "nicknames": ["萌女士", "萌兰妈妈"],
+    "nicknames": [
+      "萌女士",
+      "萌兰妈妈"
+    ],
     "gender": "female",
     "birthDate": "2006-09-13",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -654,7 +1296,12 @@
     "mother": "英英",
     "father": "灵灵",
     "weight": "约95kg",
-    "personality": ["温柔", "安静", "优雅", "母性强"],
+    "personality": [
+      "温柔",
+      "安静",
+      "优雅",
+      "母性强"
+    ],
     "claimToFame": "萌兰和萌大的妈妈，北京动物园的优雅女士",
     "funFacts": [
       "儿子萌兰是北京动物园的'西直门三太子'",
@@ -662,21 +1309,47 @@
       "育有多只知名后代，包括萌兰和萌大",
       "在北京动物园生活多年，是北动的招牌明星"
     ],
-    "tags": ["北京", "妈妈", "优雅"],
+    "tags": [
+      "北京",
+      "妈妈",
+      "优雅"
+    ],
     "imageUrl": "/pandas/meng-meng.jpg",
     "spectacleNumber": "620",
     "familyId": "meng-meng-line",
     "life_events": [
-      { "date": "2006-09-13", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲英英、父亲灵灵" },
-      { "date": "2013-08-22", "title": "👶 萌大出生", "description": "生下萌大，开启在北京动物园的繁育传奇" },
-      { "date": "2015-07-04", "title": "👶 萌兰出生", "description": "生下萌兰，后来成为全球闻名的'越狱高手'" }
+      {
+        "date": "2006-09-13",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲英英、父亲灵灵"
+      },
+      {
+        "date": "2013-08-22",
+        "title": "👶 萌大出生",
+        "description": "生下萌大，开启在北京动物园的繁育传奇"
+      },
+      {
+        "date": "2015-07-04",
+        "title": "👶 萌兰出生",
+        "description": "生下萌兰，后来成为全球闻名的'越狱高手'"
+      }
+    ],
+    "photoUrl": "/pandas/meng-meng.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/meng-meng.jpg", "credit": "" },
+      { "url": "/pandas/meng-meng-2.jpg", "credit": "" },
+      { "url": "/pandas/meng-meng-3.jpg", "credit": "" }
     ]
   },
   {
     "id": "mei-xiang",
     "name": "美香",
     "nameEn": "Mei Xiang",
-    "nicknames": ["美香妈妈", "DC女王"],
+    "nicknames": [
+      "美香妈妈",
+      "DC女王"
+    ],
     "gender": "female",
     "birthDate": "1998-07-22",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -684,7 +1357,12 @@
     "mother": "雪雪",
     "father": "林楠",
     "weight": "约100kg",
-    "personality": ["坚韧", "母性强", "经验丰富", "温和"],
+    "personality": [
+      "坚韧",
+      "母性强",
+      "经验丰富",
+      "温和"
+    ],
     "claimToFame": "在华盛顿生活23年，是泰山、贝贝、小奇迹的母亲",
     "funFacts": [
       "2000年赴美，在华盛顿史密森尼国家动物园生活了23年",
@@ -692,23 +1370,53 @@
       "2023年11月与小奇迹、添添一起返回中国",
       "是中美大熊猫保护合作的标志性人物"
     ],
-    "tags": ["海归", "DC", "高产妈妈", "传奇"],
+    "tags": [
+      "海归",
+      "DC",
+      "高产妈妈",
+      "传奇"
+    ],
     "imageUrl": "/pandas/mei-xiang.jpg",
     "spectacleNumber": "450",
     "familyId": "mei-xiang-line",
     "life_events": [
-      { "date": "1998-07-22", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲雪雪、父亲林楠" },
-      { "date": "2000-12-06", "title": "✈️ 抵达华盛顿", "description": "与添添一起抵达华盛顿史密森尼国家动物园" },
-      { "date": "2005-07-09", "title": "👶 泰山出生", "description": "生下泰山，是华盛顿第一只存活的熊猫幼崽" },
-      { "date": "2020-08-21", "title": "👶 高龄产子", "description": "在22岁高龄生下小奇迹，创造年龄最大产子记录之一" },
-      { "date": "2023-11-08", "title": "🏠 荣归故里", "description": "结束23年旅美生涯，与添添、小奇迹一起返回中国" }
-    ]
+      {
+        "date": "1998-07-22",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲雪雪、父亲林楠"
+      },
+      {
+        "date": "2000-12-06",
+        "title": "✈️ 抵达华盛顿",
+        "description": "与添添一起抵达华盛顿史密森尼国家动物园"
+      },
+      {
+        "date": "2005-07-09",
+        "title": "👶 泰山出生",
+        "description": "生下泰山，是华盛顿第一只存活的熊猫幼崽"
+      },
+      {
+        "date": "2020-08-21",
+        "title": "👶 高龄产子",
+        "description": "在22岁高龄生下小奇迹，创造年龄最大产子记录之一"
+      },
+      {
+        "date": "2023-11-08",
+        "title": "🏠 荣归故里",
+        "description": "结束23年旅美生涯，与添添、小奇迹一起返回中国"
+      }
+    ],
+    "photoUrl": "/pandas/mei-xiang.jpg",
+    "photoCredit": ""
   },
   {
     "id": "tian-tian-dc",
     "name": "添添",
     "nameEn": "Tian Tian",
-    "nicknames": ["添爸", "DC男神"],
+    "nicknames": [
+      "添爸",
+      "DC男神"
+    ],
     "gender": "male",
     "birthDate": "1997-08-27",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -716,7 +1424,12 @@
     "mother": "永巴",
     "father": "盼盼",
     "weight": "约125kg",
-    "personality": ["稳重", "温顺", "贪吃", "好脾气"],
+    "personality": [
+      "稳重",
+      "温顺",
+      "贪吃",
+      "好脾气"
+    ],
     "claimToFame": "在华盛顿生活23年，是美香的伴侣和多个明星熊猫的父亲",
     "funFacts": [
       "2000年和美香一起抵达华盛顿，相伴23年",
@@ -724,21 +1437,43 @@
       "父亲盼盼是熊猫界的传奇，后代超过130只",
       "2023年与美香、小奇迹一起返回中国"
     ],
-    "tags": ["海归", "DC", "盼盼之子", "传奇"],
+    "tags": [
+      "海归",
+      "DC",
+      "盼盼之子",
+      "传奇"
+    ],
     "imageUrl": "/pandas/tian-tian-dc.jpg",
     "spectacleNumber": "440",
     "familyId": "mei-xiang-line",
     "life_events": [
-      { "date": "1997-08-27", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，父亲盼盼是熊猫界传奇" },
-      { "date": "2000-12-06", "title": "✈️ 抵达华盛顿", "description": "与美香一起抵达华盛顿史密森尼国家动物园" },
-      { "date": "2023-11-08", "title": "🏠 荣归故里", "description": "结束23年旅美生涯，与美香、小奇迹一起返回中国" }
-    ]
+      {
+        "date": "1997-08-27",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，父亲盼盼是熊猫界传奇"
+      },
+      {
+        "date": "2000-12-06",
+        "title": "✈️ 抵达华盛顿",
+        "description": "与美香一起抵达华盛顿史密森尼国家动物园"
+      },
+      {
+        "date": "2023-11-08",
+        "title": "🏠 荣归故里",
+        "description": "结束23年旅美生涯，与美香、小奇迹一起返回中国"
+      }
+    ],
+    "photoUrl": "/pandas/tian-tian-dc.jpg",
+    "photoCredit": ""
   },
   {
     "id": "xiao-qi-ji",
     "name": "小奇迹",
     "nameEn": "Xiao Qi Ji",
-    "nicknames": ["奇迹宝宝", "疫情宝宝"],
+    "nicknames": [
+      "奇迹宝宝",
+      "疫情宝宝"
+    ],
     "gender": "male",
     "birthDate": "2020-08-21",
     "birthPlace": "华盛顿史密森尼国家动物园",
@@ -746,7 +1481,12 @@
     "mother": "美香",
     "father": "添添",
     "weight": "约90kg",
-    "personality": ["活泼", "好奇", "粘人", "爱玩"],
+    "personality": [
+      "活泼",
+      "好奇",
+      "粘人",
+      "爱玩"
+    ],
     "claimToFame": "疫情期间在华盛顿出生的'奇迹宝宝'，美香22岁高龄产子",
     "funFacts": [
       "名字'小奇迹'意为'小小的奇迹'，由全球粉丝投票选出",
@@ -754,22 +1494,53 @@
       "出生时正值新冠疫情，全球数百万人通过直播关注他",
       "2023年和妈妈爸爸一起返回中国"
     ],
-    "tags": ["DC", "疫情宝宝", "高龄产子"],
+    "tags": [
+      "DC",
+      "疫情宝宝",
+      "高龄产子"
+    ],
     "imageUrl": "/pandas/xiao-qi-ji.jpg",
     "spectacleNumber": "1235",
     "familyId": "mei-xiang-line",
     "life_events": [
-      { "date": "2020-08-21", "title": "🐣 出生", "description": "在华盛顿史密森尼国家动物园出生，疫情期间全球数百万人观看直播" },
-      { "date": "2020-11-23", "title": "🌟 命名公布", "description": "全球粉丝投票命名为'小奇迹'，意为'小小的奇迹'" },
-      { "date": "2021-05-21", "title": "👶 首次亮相", "description": "首次在华盛顿公开亮相，引发新一轮熊猫热潮" },
-      { "date": "2023-11-08", "title": "✈️ 返回中国", "description": "与父母美香、添添一起返回中国都江堰基地" }
+      {
+        "date": "2020-08-21",
+        "title": "🐣 出生",
+        "description": "在华盛顿史密森尼国家动物园出生，疫情期间全球数百万人观看直播"
+      },
+      {
+        "date": "2020-11-23",
+        "title": "🌟 命名公布",
+        "description": "全球粉丝投票命名为'小奇迹'，意为'小小的奇迹'"
+      },
+      {
+        "date": "2021-05-21",
+        "title": "👶 首次亮相",
+        "description": "首次在华盛顿公开亮相，引发新一轮熊猫热潮"
+      },
+      {
+        "date": "2023-11-08",
+        "title": "✈️ 返回中国",
+        "description": "与父母美香、添添一起返回中国都江堰基地"
+      }
+    ],
+    "photoUrl": "/pandas/xiao-qi-ji.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/xiao-qi-ji.jpg", "credit": "" },
+      { "url": "/pandas/xiao-qi-ji-2.jpg", "credit": "" },
+      { "url": "/pandas/xiao-qi-ji-3.jpg", "credit": "" },
+      { "url": "/pandas/xiao-qi-ji-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "bei-bei",
     "name": "贝贝",
     "nameEn": "Bei Bei",
-    "nicknames": ["贝勒爷", "功夫熊猫"],
+    "nicknames": [
+      "贝勒爷",
+      "功夫熊猫"
+    ],
     "gender": "male",
     "birthDate": "2015-08-22",
     "birthPlace": "华盛顿史密森尼国家动物园",
@@ -777,7 +1548,12 @@
     "mother": "美香",
     "father": "添添",
     "weight": "约115kg",
-    "personality": ["活泼", "好动", "调皮", "运动健将"],
+    "personality": [
+      "活泼",
+      "好动",
+      "调皮",
+      "运动健将"
+    ],
     "claimToFame": "华盛顿出生的明星熊猫，泰山的弟弟，被称'贝勒爷'",
     "funFacts": [
       "名字'贝贝'意为'珍贵的宝贝'",
@@ -785,21 +1561,47 @@
       "喜欢爬树和玩球，被称为'功夫熊猫'",
       "2019年回到中国，美国粉丝包机送别"
     ],
-    "tags": ["海归", "DC", "功夫熊猫"],
+    "tags": [
+      "海归",
+      "DC",
+      "功夫熊猫"
+    ],
     "imageUrl": "/pandas/bei-bei.jpg",
     "spectacleNumber": "990",
     "familyId": "mei-xiang-line",
     "life_events": [
-      { "date": "2015-08-22", "title": "🐣 出生", "description": "在华盛顿史密森尼国家动物园出生，母亲美香、父亲添添" },
-      { "date": "2016-01-16", "title": "🌟 首次亮相", "description": "在华盛顿首次公开亮相，引发排队热潮" },
-      { "date": "2019-11-19", "title": "✈️ 回到中国", "description": "结束4年华盛顿生活回到雅安碧峰峡基地，美国粉丝包机送别" }
+      {
+        "date": "2015-08-22",
+        "title": "🐣 出生",
+        "description": "在华盛顿史密森尼国家动物园出生，母亲美香、父亲添添"
+      },
+      {
+        "date": "2016-01-16",
+        "title": "🌟 首次亮相",
+        "description": "在华盛顿首次公开亮相，引发排队热潮"
+      },
+      {
+        "date": "2019-11-19",
+        "title": "✈️ 回到中国",
+        "description": "结束4年华盛顿生活回到雅安碧峰峡基地，美国粉丝包机送别"
+      }
+    ],
+    "photoUrl": "/pandas/bei-bei.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/bei-bei.jpg", "credit": "" },
+      { "url": "/pandas/bei-bei-2.jpg", "credit": "" },
+      { "url": "/pandas/bei-bei-3.jpg", "credit": "" }
     ]
   },
   {
     "id": "fei-yun",
     "name": "飞云",
     "nameEn": "Fei Yun",
-    "nicknames": ["功夫熊猫", "大连一枝花"],
+    "nicknames": [
+      "功夫熊猫",
+      "大连一枝花"
+    ],
     "gender": "female",
     "birthDate": "2010-07-30",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -807,7 +1609,12 @@
     "mother": "妃妃",
     "father": "芦芦",
     "weight": "约100kg",
-    "personality": ["活泼", "战斗力强", "好斗", "霸气"],
+    "personality": [
+      "活泼",
+      "战斗力强",
+      "好斗",
+      "霸气"
+    ],
     "claimToFame": "以超强战斗力走红，暴打金虎名场面出圈",
     "funFacts": [
       "因经常'暴打'同伴金虎而走红全网",
@@ -815,21 +1622,47 @@
       "战斗力在大连三宝中排名第一",
       "虽然好斗但长相甜美，被称为'大连一枝花'"
     ],
-    "tags": ["大连", "功夫熊猫", "战斗力"],
+    "tags": [
+      "大连",
+      "功夫熊猫",
+      "战斗力"
+    ],
     "imageUrl": "/pandas/fei-yun.jpg",
     "spectacleNumber": "780",
     "familyId": "fei-fei-line",
     "life_events": [
-      { "date": "2010-07-30", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲妃妃、父亲芦芦" },
-      { "date": "2012-09-21", "title": "✈️ 抵达大连", "description": "搬到大连森林动物园，开启'大连一枝花'生涯" },
-      { "date": "2020-11-01", "title": "🥊 名场面出圈", "description": "暴打金虎的视频全网爆红，被封为真·功夫熊猫" }
+      {
+        "date": "2010-07-30",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲妃妃、父亲芦芦"
+      },
+      {
+        "date": "2012-09-21",
+        "title": "✈️ 抵达大连",
+        "description": "搬到大连森林动物园，开启'大连一枝花'生涯"
+      },
+      {
+        "date": "2020-11-01",
+        "title": "🥊 名场面出圈",
+        "description": "暴打金虎的视频全网爆红，被封为真·功夫熊猫"
+      }
+    ],
+    "photoUrl": "/pandas/fei-yun.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/fei-yun.jpg", "credit": "" },
+      { "url": "/pandas/fei-yun-2.jpg", "credit": "" },
+      { "url": "/pandas/fei-yun-3.jpg", "credit": "" }
     ]
   },
   {
     "id": "jin-hu",
     "name": "金虎",
     "nameEn": "Jin Hu",
-    "nicknames": ["虎子", "大连小可怜"],
+    "nicknames": [
+      "虎子",
+      "大连小可怜"
+    ],
     "gender": "male",
     "birthDate": "2010-07-08",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -837,7 +1670,12 @@
     "mother": "竹韵",
     "father": "灵灵",
     "weight": "约115kg",
-    "personality": ["憨厚", "老实", "话痨", "好脾气"],
+    "personality": [
+      "憨厚",
+      "老实",
+      "话痨",
+      "好脾气"
+    ],
     "claimToFame": "大连三宝之一，常年被飞云'欺负'的温柔男熊",
     "funFacts": [
       "和飞云、妙音并称'大连三宝'",
@@ -845,21 +1683,47 @@
       "特别爱叫唤，被粉丝称为'话痨'",
       "长相帅气但性格怂，反差萌圈粉无数"
     ],
-    "tags": ["大连", "三宝", "话痨"],
+    "tags": [
+      "大连",
+      "三宝",
+      "话痨"
+    ],
     "imageUrl": "/pandas/jin-hu.jpg",
     "spectacleNumber": "775",
     "familyId": "zhu-yun-line",
     "life_events": [
-      { "date": "2010-07-08", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲竹韵、父亲灵灵" },
-      { "date": "2012-09-21", "title": "✈️ 抵达大连", "description": "搬到大连森林动物园，成为大连三宝之一" },
-      { "date": "2020-11-01", "title": "😢 被暴打走红", "description": "被飞云暴打的视频全网传开，'可怜虎子'成为热搜" }
+      {
+        "date": "2010-07-08",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲竹韵、父亲灵灵"
+      },
+      {
+        "date": "2012-09-21",
+        "title": "✈️ 抵达大连",
+        "description": "搬到大连森林动物园，成为大连三宝之一"
+      },
+      {
+        "date": "2020-11-01",
+        "title": "😢 被暴打走红",
+        "description": "被飞云暴打的视频全网传开，'可怜虎子'成为热搜"
+      }
+    ],
+    "photoUrl": "/pandas/jin-hu.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/jin-hu.jpg", "credit": "" },
+      { "url": "/pandas/jin-hu-2.jpg", "credit": "" },
+      { "url": "/pandas/jin-hu-3.jpg", "credit": "" },
+      { "url": "/pandas/jin-hu-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "meng-da",
     "name": "萌大",
     "nameEn": "Meng Da",
-    "nicknames": ["大公子"],
+    "nicknames": [
+      "大公子"
+    ],
     "gender": "male",
     "birthDate": "2013-08-22",
     "birthPlace": "中国大熊猫保护研究中心",
@@ -867,7 +1731,12 @@
     "mother": "萌萌",
     "father": "未知",
     "weight": "约120kg",
-    "personality": ["安静", "内敛", "温和", "低调"],
+    "personality": [
+      "安静",
+      "内敛",
+      "温和",
+      "低调"
+    ],
     "claimToFame": "萌兰的哥哥，北京动物园低调的大公子",
     "funFacts": [
       "萌兰的同母哥哥，性格比萌兰安静得多",
@@ -875,44 +1744,1276 @@
       "不如弟弟萌兰那么'社牛'，但深受粉丝喜爱",
       "被称为北京动物园'低调的大公子'"
     ],
-    "tags": ["北京", "萌兰哥哥"],
+    "tags": [
+      "北京",
+      "萌兰哥哥"
+    ],
     "imageUrl": "/pandas/meng-da.jpg",
     "spectacleNumber": "885",
     "familyId": "meng-meng-line",
     "life_events": [
-      { "date": "2013-08-22", "title": "🐣 出生", "description": "在中国大熊猫保护研究中心出生，母亲萌萌" },
-      { "date": "2015-09-01", "title": "✈️ 搬家北京", "description": "和妈妈萌萌一起搬到北京动物园" },
-      { "date": "2016-07-04", "title": "👶 当哥哥了", "description": "弟弟萌兰也来到北京动物园，兄弟团聚" }
+      {
+        "date": "2013-08-22",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生，母亲萌萌"
+      },
+      {
+        "date": "2015-09-01",
+        "title": "✈️ 搬家北京",
+        "description": "和妈妈萌萌一起搬到北京动物园"
+      },
+      {
+        "date": "2016-07-04",
+        "title": "👶 当哥哥了",
+        "description": "弟弟萌兰也来到北京动物园，兄弟团聚"
+      }
+    ],
+    "photoUrl": "/pandas/meng-da.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/meng-da.jpg", "credit": "" },
+      { "url": "/pandas/meng-da-2.jpg", "credit": "" },
+      { "url": "/pandas/meng-da-3.jpg", "credit": "" },
+      { "url": "/pandas/meng-da-4.jpg", "credit": "" }
     ]
   },
   {
     "id": "yu-ke",
     "name": "渝可",
     "nameEn": "Yu Ke",
-    "nicknames": ["可可", "重庆小霸王"],
+    "nicknames": [
+      "可可",
+      "重庆小霸王"
+    ],
     "gender": "male",
-    "birthDate": "2019-06-23",
+    "birthDate": "2022-07-22",
+    "birthPlace": "重庆动物园",
+    "currentHome": "重庆动物园",
+    "mother": "二顺",
+    "father": "青青",
+    "weight": "约85kg",
+    "personality": [
+      "调皮",
+      "爱闹",
+      "粘妹妹",
+      "活泼"
+    ],
+    "claimToFame": "重庆动物园的明星熊猫，和双胞胎妹妹渝爱一起长大",
+    "funFacts": [
+      "妈妈二顺是从加拿大回国的海归熊猫，曾在多伦多和卡尔加里旅居",
+      "和妹妹渝爱是重庆动物园的'龙凤胎明星'",
+      "从小和妹妹形影不离，感情特别好",
+      "特别喜欢爬树，经常在树上不下来"
+    ],
+    "tags": [
+      "重庆",
+      "双胞胎",
+      "龙凤胎"
+    ],
+    "imageUrl": "/pandas/yu-ke.jpg",
+    "spectacleNumber": "1160",
+    "familyId": "er-shun-line",
+    "life_events": [
+      {
+        "date": "2022-07-22",
+        "title": "🐣 出生",
+        "description": "在重庆动物园出生，与妹妹渝爱是龙凤胎，母亲二顺、父亲青青"
+      },
+      {
+        "date": "2023-03-15",
+        "title": "🌟 正式命名",
+        "description": "经网络投票命名为'渝可''渝爱'，'渝'代表重庆，'可爱'寓意可爱的熊猫"
+      },
+      {
+        "date": "2023-07-22",
+        "title": "🎂 一周岁",
+        "description": "重庆动物园为龙凤胎举办盛大周岁生日会，游客爆满"
+      }
+    ],
+    "photoUrl": "/pandas/yu-ke.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/yu-ke.jpg", "credit": "" },
+      { "url": "/pandas/yu-ke-2.jpg", "credit": "" },
+      { "url": "/pandas/yu-ke-3.jpg", "credit": "" },
+      { "url": "/pandas/yu-ke-4.jpg", "credit": "" }
+    ]
+  },
+  {
+    "id": "lun-lun",
+    "name": "伦伦",
+    "nameEn": "Lun Lun",
+    "nicknames": [
+      "伦女士",
+      "亚特兰大女王"
+    ],
+    "gender": "female",
+    "birthDate": "1997-08-25",
+    "birthPlace": "成都大熊猫繁育研究基地",
+    "currentHome": "美国亚特兰大动物园",
+    "mother": "冰冰",
+    "father": "林楠",
+    "weight": "约100kg",
+    "personality": [
+      "温柔",
+      "母性强",
+      "经验丰富",
+      "从容"
+    ],
+    "claimToFame": "亚特兰大动物园的超级妈妈，育有美兰、雅伦、喜伦等多只明星熊猫",
+    "funFacts": [
+      "1999年与洋洋一起抵达亚特兰大，已旅居美国超过25年",
+      "是美兰（花花、萌兰的爸爸）的母亲，也就是花花和萌兰的奶奶",
+      "在亚特兰大成功繁育了7只幼崽",
+      "是中美熊猫保护合作中最成功的繁殖雌性之一"
+    ],
+    "tags": [
+      "亚特兰大",
+      "超级妈妈",
+      "海归",
+      "传奇"
+    ],
+    "imageUrl": "/pandas/lun-lun.jpg",
+    "spectacleNumber": "510",
+    "familyId": "lun-lun-line",
+    "life_events": [
+      {
+        "date": "1997-08-25",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，母亲冰冰、父亲林楠"
+      },
+      {
+        "date": "1999-11-05",
+        "title": "✈️ 抵达亚特兰大",
+        "description": "与洋洋一起抵达美国亚特兰大动物园，开启25年+旅美生涯"
+      },
+      {
+        "date": "2006-09-06",
+        "title": "👶 美兰出生",
+        "description": "生下美兰，后来成为花花、萌兰、和叶等顶流的父亲"
+      },
+      {
+        "date": "2016-09-03",
+        "title": "👶👶 雅伦喜伦出生",
+        "description": "生下双胞胎雅伦和喜伦，再次轰动全美"
+      }
+    ],
+    "photoUrl": "/pandas/lun-lun.jpg",
+    "photoCredit": ""
+  },
+  {
+    "id": "yang-yang-atlanta",
+    "name": "洋洋",
+    "nameEn": "Yang Yang",
+    "nicknames": [
+      "洋洋爸爸",
+      "亚特兰大男神"
+    ],
+    "gender": "male",
+    "birthDate": "1997-09-09",
+    "birthPlace": "成都大熊猫繁育研究基地",
+    "currentHome": "美国亚特兰大动物园",
+    "mother": "未知",
+    "father": "未知",
+    "weight": "约120kg",
+    "personality": [
+      "温和",
+      "稳重",
+      "贪吃",
+      "好脾气"
+    ],
+    "claimToFame": "亚特兰大动物园的种公熊猫，美兰、雅伦、喜伦的父亲",
+    "funFacts": [
+      "1999年与伦伦一起抵达亚特兰大，相伴超过25年",
+      "是美兰的父亲，即花花和萌兰的爷爷",
+      "在亚特兰大繁育了7只后代，基因传承广泛",
+      "喜欢在户外泡澡，是亚特兰大的'泳池达人'"
+    ],
+    "tags": [
+      "亚特兰大",
+      "海归",
+      "爷爷辈"
+    ],
+    "imageUrl": "/pandas/yang-yang-atlanta.jpg",
+    "spectacleNumber": "511",
+    "familyId": "lun-lun-line",
+    "life_events": [
+      {
+        "date": "1997-09-09",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生"
+      },
+      {
+        "date": "1999-11-05",
+        "title": "✈️ 抵达亚特兰大",
+        "description": "与伦伦一起抵达美国亚特兰大动物园"
+      },
+      {
+        "date": "2006-09-06",
+        "title": "👶 当爸爸了",
+        "description": "儿子美兰出生，后来成为熊猫界最著名的超级爸爸"
+      },
+      {
+        "date": "2016-09-03",
+        "title": "👶👶 再当爸爸",
+        "description": "双胞胎雅伦和喜伦出生，亚特兰大熊猫家族继续壮大"
+      }
+    ],
+    "photoUrl": "/pandas/yang-yang-atlanta.jpg",
+    "photoCredit": ""
+  },
+  {
+    "id": "ya-lun",
+    "name": "雅伦",
+    "nameEn": "Ya Lun",
+    "nicknames": [
+      "雅公主"
+    ],
+    "gender": "female",
+    "birthDate": "2016-09-03",
+    "birthPlace": "美国亚特兰大动物园",
+    "currentHome": "美国亚特兰大动物园",
+    "mother": "伦伦",
+    "father": "洋洋",
+    "weight": "约85kg",
+    "personality": [
+      "活泼",
+      "好奇",
+      "独立",
+      "爱爬树"
+    ],
+    "claimToFame": "亚特兰大双胞胎姐妹花之一，美兰的妹妹",
+    "funFacts": [
+      "与喜伦是双胞胎姐妹，出生时全美直播",
+      "是花花和萌兰的姑姑（美兰的妹妹）",
+      "名字'雅伦'意为'优雅的伦伦的后代'",
+      "从小喜欢爬树，经常待在高处不下来"
+    ],
+    "tags": [
+      "亚特兰大",
+      "双胞胎",
+      "美兰妹妹"
+    ],
+    "imageUrl": "/pandas/ya-lun.jpg",
+    "spectacleNumber": "1050",
+    "familyId": "lun-lun-line",
+    "life_events": [
+      {
+        "date": "2016-09-03",
+        "title": "🐣 出生",
+        "description": "在美国亚特兰大动物园出生，与喜伦是双胞胎，母亲伦伦、父亲洋洋"
+      },
+      {
+        "date": "2017-03-15",
+        "title": "🌟 首次亮相",
+        "description": "与双胞胎妹妹喜伦首次公开亮相，成为亚特兰大新明星"
+      },
+      {
+        "date": "2023-09-03",
+        "title": "🎂 七岁生日",
+        "description": "亚特兰大动物园为双胞胎举办盛大生日会"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Ya%20Lun",
+    "photoCredit": ""
+  },
+  {
+    "id": "xi-lun",
+    "name": "喜伦",
+    "nameEn": "Xi Lun",
+    "nicknames": [
+      "喜公主"
+    ],
+    "gender": "female",
+    "birthDate": "2016-09-03",
+    "birthPlace": "美国亚特兰大动物园",
+    "currentHome": "美国亚特兰大动物园",
+    "mother": "伦伦",
+    "father": "洋洋",
+    "weight": "约85kg",
+    "personality": [
+      "文静",
+      "温柔",
+      "粘妈妈",
+      "爱吃"
+    ],
+    "claimToFame": "亚特兰大双胞胎姐妹花之一，美兰的妹妹",
+    "funFacts": [
+      "与雅伦是双胞胎姐妹，比姐姐更害羞温柔",
+      "也是花花和萌兰的姑姑",
+      "名字'喜伦'意为'喜庆的伦伦的后代'",
+      "从小特别粘妈妈伦伦，经常跟在妈妈身后"
+    ],
+    "tags": [
+      "亚特兰大",
+      "双胞胎",
+      "美兰妹妹"
+    ],
+    "imageUrl": "/pandas/xi-lun.jpg",
+    "spectacleNumber": "1051",
+    "familyId": "lun-lun-line",
+    "life_events": [
+      {
+        "date": "2016-09-03",
+        "title": "🐣 出生",
+        "description": "在美国亚特兰大动物园出生，与雅伦是双胞胎，母亲伦伦、父亲洋洋"
+      },
+      {
+        "date": "2017-03-15",
+        "title": "🌟 首次亮相",
+        "description": "与双胞胎姐姐雅伦首次公开亮相，因害羞温柔圈粉无数"
+      },
+      {
+        "date": "2023-09-03",
+        "title": "🎂 七岁生日",
+        "description": "亚特兰大动物园为双胞胎举办盛大生日会"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Xi%20Lun",
+    "photoCredit": ""
+  },
+  {
+    "id": "meng-xiang",
+    "name": "梦想",
+    "nameEn": "Meng Xiang",
+    "nicknames": [
+      "想仔"
+    ],
+    "gender": "male",
+    "birthDate": "2019-08-31",
+    "birthPlace": "德国柏林动物园",
+    "currentHome": "德国柏林动物园",
+    "mother": "梦梦",
+    "father": "娇庆",
+    "weight": "约95kg",
+    "personality": [
+      "活泼",
+      "调皮",
+      "好动",
+      "探索欲强"
+    ],
+    "claimToFame": "柏林动物园首对双胞胎熊猫之一，德国熊猫明星",
+    "funFacts": [
+      "与妹妹梦圆是柏林动物园首次成功繁育的大熊猫双胞胎",
+      "出生时德国全国轰动，被称为'柏林奇迹'",
+      "名字'梦想'和'梦圆'由中德双方共同命名",
+      "喜欢在户外爬树和玩水，是柏林动物园最受欢迎的明星"
+    ],
+    "tags": [
+      "德国",
+      "柏林",
+      "双胞胎",
+      "海外"
+    ],
+    "imageUrl": "/pandas/meng-xiang.jpg",
+    "spectacleNumber": "1190",
+    "familyId": "meng-meng-berlin-line",
+    "life_events": [
+      {
+        "date": "2019-08-31",
+        "title": "🐣 出生",
+        "description": "在德国柏林动物园出生，与妹妹梦圆是双胞胎，母亲梦梦、父亲娇庆"
+      },
+      {
+        "date": "2020-01-30",
+        "title": "🌟 首次亮相",
+        "description": "与妹妹首次公开亮相，柏林动物园游客量暴增"
+      },
+      {
+        "date": "2023-08-31",
+        "title": "🎂 四岁生日",
+        "description": "柏林动物园举办盛大四岁生日会，德国媒体广泛报道"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Meng%20Xiang",
+    "photoCredit": ""
+  },
+  {
+    "id": "meng-yuan",
+    "name": "梦圆",
+    "nameEn": "Meng Yuan",
+    "nicknames": [
+      "圆圆"
+    ],
+    "gender": "female",
+    "birthDate": "2019-08-31",
+    "birthPlace": "德国柏林动物园",
+    "currentHome": "德国柏林动物园",
+    "mother": "梦梦",
+    "father": "娇庆",
+    "weight": "约85kg",
+    "personality": [
+      "文静",
+      "甜美",
+      "优雅",
+      "粘哥哥"
+    ],
+    "claimToFame": "柏林动物园首对双胞胎熊猫之一，甜美形象圈粉欧洲",
+    "funFacts": [
+      "与哥哥梦想是柏林动物园首次成功繁育的大熊猫双胞胎",
+      "名字'梦圆'意为'梦想圆满'，与哥哥梦想呼应",
+      "性格比哥哥更温柔安静，喜欢独自晒太阳",
+      "是欧洲最受欢迎的大熊猫之一"
+    ],
+    "tags": [
+      "德国",
+      "柏林",
+      "双胞胎",
+      "海外"
+    ],
+    "imageUrl": "/pandas/meng-yuan.jpg",
+    "spectacleNumber": "1191",
+    "familyId": "meng-meng-berlin-line",
+    "life_events": [
+      {
+        "date": "2019-08-31",
+        "title": "🐣 出生",
+        "description": "在德国柏林动物园出生，与哥哥梦想是双胞胎，母亲梦梦、父亲娇庆"
+      },
+      {
+        "date": "2020-01-30",
+        "title": "🌟 首次亮相",
+        "description": "与哥哥首次公开亮相，甜美形象圈粉无数欧洲游客"
+      },
+      {
+        "date": "2023-08-31",
+        "title": "🎂 四岁生日",
+        "description": "柏林动物园举办盛大四岁生日会"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Meng%20Yuan",
+    "photoCredit": ""
+  },
+  {
+    "id": "yuan-meng",
+    "name": "圆梦",
+    "nameEn": "Yuan Meng",
+    "nicknames": [
+      "法国小王子"
+    ],
+    "gender": "male",
+    "birthDate": "2017-08-04",
+    "birthPlace": "法国博瓦勒动物园",
+    "currentHome": "中国大熊猫保护研究中心成都基地",
+    "mother": "欢欢",
+    "father": "园子",
+    "weight": "约110kg",
+    "personality": [
+      "活泼",
+      "自信",
+      "好奇",
+      "亲民"
+    ],
+    "claimToFame": "首只在法国出生的大熊猫，被法国第一夫人认作教子",
+    "funFacts": [
+      "2017年在法国出生，法国第一夫人布丽吉特·马克龙是他教母",
+      "名字'圆梦'意为'梦想成真'，由中法第一夫人共同命名",
+      "在法国生活时吸引了数百万游客",
+      "2023年回到中国，法国粉丝依依不舍"
+    ],
+    "tags": [
+      "法国",
+      "海归",
+      "第一夫人教子",
+      "海外"
+    ],
+    "imageUrl": "/pandas/yuan-meng.jpg",
+    "spectacleNumber": "1105",
+    "familyId": "huan-huan-line",
+    "life_events": [
+      {
+        "date": "2017-08-04",
+        "title": "🐣 出生",
+        "description": "在法国博瓦勒动物园出生，是首只在法国出生的大熊猫，母亲欢欢、父亲园子"
+      },
+      {
+        "date": "2017-12-04",
+        "title": "🌟 命名仪式",
+        "description": "由中法第一夫人共同命名为'圆梦'，法国第一夫人布丽吉特担任教母"
+      },
+      {
+        "date": "2018-08-04",
+        "title": "🎂 一周岁",
+        "description": "博瓦勒动物园举办盛大周岁庆典，法国媒体全程直播"
+      },
+      {
+        "date": "2023-07-25",
+        "title": "✈️ 回到中国",
+        "description": "结束法国旅居生活回到成都，法国粉丝依依不舍送别"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Yuan%20Meng",
+    "photoCredit": ""
+  },
+  {
+    "id": "huan-huan-france",
+    "name": "欢欢",
+    "nameEn": "Huan Huan",
+    "nicknames": [
+      "欢女士",
+      "法国妈妈"
+    ],
+    "gender": "female",
+    "birthDate": "2008-08-10",
+    "birthPlace": "成都大熊猫繁育研究基地",
+    "currentHome": "法国博瓦勒动物园",
+    "mother": "未知",
+    "father": "未知",
+    "weight": "约95kg",
+    "personality": [
+      "温柔",
+      "耐心",
+      "母性极强",
+      "优雅"
+    ],
+    "claimToFame": "在法国生下圆梦，法国第一夫人亲自前往探望",
+    "funFacts": [
+      "2012年和园子一起旅居法国博瓦勒动物园",
+      "2017年生下圆梦，是首只在法国出生的大熊猫",
+      "法国第一夫人布丽吉特·马克龙多次前往探望",
+      "是法国最受欢迎的动物明星之一"
+    ],
+    "tags": [
+      "法国",
+      "妈妈",
+      "海外",
+      "明星"
+    ],
+    "imageUrl": "/pandas/huan-huan-france.jpg",
+    "spectacleNumber": "740",
+    "familyId": "huan-huan-line",
+    "life_events": [
+      {
+        "date": "2008-08-10",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生"
+      },
+      {
+        "date": "2012-01-15",
+        "title": "✈️ 旅居法国",
+        "description": "与园子一起抵达法国博瓦勒动物园"
+      },
+      {
+        "date": "2017-08-04",
+        "title": "👶 生下圆梦",
+        "description": "生下首只在法国出生的大熊猫圆梦，法国举国欢庆"
+      },
+      {
+        "date": "2021-08-02",
+        "title": "👶👶 再当妈妈",
+        "description": "生下双胞胎欢黎黎和圆嘟嘟，再次轰动法国"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Huan%20Huan",
+    "photoCredit": ""
+  },
+  {
+    "id": "tian-bao",
+    "name": "天宝",
+    "nameEn": "Tian Bao",
+    "nicknames": [
+      "宝哥",
+      "比利时小王子"
+    ],
+    "gender": "male",
+    "birthDate": "2016-06-02",
+    "birthPlace": "比利时天堂动物园",
+    "currentHome": "比利时天堂动物园",
+    "mother": "好好",
+    "father": "星徽",
+    "weight": "约110kg",
+    "personality": [
+      "活泼",
+      "好奇",
+      "友善",
+      "憨厚"
+    ],
+    "claimToFame": "首只在比利时出生的大熊猫，比中友谊的象征",
+    "funFacts": [
+      "2016年在比利时天堂动物园出生，是首只在比利时出生的大熊猫",
+      "名字'天宝'意为'天堂的宝贝'，由比利时全民投票选出",
+      "他有弟弟宝弟和妹妹宝妹，是比利时熊猫家族的老大",
+      "比利时首相曾亲自为他庆生"
+    ],
+    "tags": [
+      "比利时",
+      "海外",
+      "明星",
+      "老大"
+    ],
+    "imageUrl": "/pandas/tian-bao.jpg",
+    "spectacleNumber": "1030",
+    "familyId": "hao-hao-line",
+    "life_events": [
+      {
+        "date": "2016-06-02",
+        "title": "🐣 出生",
+        "description": "在比利时天堂动物园出生，是首只在比利时出生的大熊猫，母亲好好、父亲星徽"
+      },
+      {
+        "date": "2016-09-15",
+        "title": "🌟 命名仪式",
+        "description": "比利时全民投票命名为'天宝'，意为天堂的宝贝"
+      },
+      {
+        "date": "2019-08-08",
+        "title": "👶 当哥哥了",
+        "description": "弟弟宝弟和妹妹宝妹出生，天宝升级为大哥"
+      },
+      {
+        "date": "2023-06-02",
+        "title": "🎂 七岁生日",
+        "description": "天堂动物园举办盛大七岁生日会，比利时首相出席"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Tian%20Bao",
+    "photoCredit": ""
+  },
+  {
+    "id": "bao-di",
+    "name": "宝弟",
+    "nameEn": "Bao Di",
+    "nicknames": [
+      "弟弟"
+    ],
+    "gender": "male",
+    "birthDate": "2019-08-08",
+    "birthPlace": "比利时天堂动物园",
+    "currentHome": "比利时天堂动物园",
+    "mother": "好好",
+    "father": "星徽",
+    "weight": "约90kg",
+    "personality": [
+      "调皮",
+      "好动",
+      "粘哥哥",
+      "爱闹"
+    ],
+    "claimToFame": "比利时天堂动物园双胞胎之一，与妹妹宝妹是欧洲熊猫繁育的又一奇迹",
+    "funFacts": [
+      "与妹妹宝妹是比利时天堂动物园的第二对大熊猫双胞胎",
+      "名字'宝弟'意为'珍贵的弟弟'",
+      "特别喜欢和哥哥天宝一起玩，经常缠着天宝",
+      "性格比哥哥天宝更调皮好动"
+    ],
+    "tags": [
+      "比利时",
+      "双胞胎",
+      "海外",
+      "调皮"
+    ],
+    "imageUrl": "/pandas/bao-di.jpg",
+    "spectacleNumber": "1175",
+    "familyId": "hao-hao-line",
+    "life_events": [
+      {
+        "date": "2019-08-08",
+        "title": "🐣 出生",
+        "description": "在比利时天堂动物园出生，与妹妹宝妹是双胞胎，母亲好好、父亲星徽"
+      },
+      {
+        "date": "2020-03-15",
+        "title": "🌟 首次亮相",
+        "description": "与妹妹宝妹首次公开亮相，比利时媒体广泛报道"
+      },
+      {
+        "date": "2023-08-08",
+        "title": "🎂 四岁生日",
+        "description": "天堂动物园为双胞胎举办盛大四岁生日会"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Bao%20Di",
+    "photoCredit": ""
+  },
+  {
+    "id": "bao-mei",
+    "name": "宝妹",
+    "nameEn": "Bao Mei",
+    "nicknames": [
+      "妹妹",
+      "小公主"
+    ],
+    "gender": "female",
+    "birthDate": "2019-08-08",
+    "birthPlace": "比利时天堂动物园",
+    "currentHome": "比利时天堂动物园",
+    "mother": "好好",
+    "father": "星徽",
+    "weight": "约80kg",
+    "personality": [
+      "甜美",
+      "文静",
+      "粘妈妈",
+      "温柔"
+    ],
+    "claimToFame": "比利时天堂动物园双胞胎中的妹妹，欧洲最受欢迎的小公主",
+    "funFacts": [
+      "与哥哥宝弟是比利时天堂动物园的第二对大熊猫双胞胎",
+      "名字'宝妹'意为'珍贵的妹妹'",
+      "性格比两个哥哥都温柔安静，是妈妈的贴心小棉袄",
+      "从小就喜欢粘着妈妈好好，经常依偎在妈妈怀里"
+    ],
+    "tags": [
+      "比利时",
+      "双胞胎",
+      "海外",
+      "小公主"
+    ],
+    "imageUrl": "/pandas/bao-mei.jpg",
+    "spectacleNumber": "1176",
+    "familyId": "hao-hao-line",
+    "life_events": [
+      {
+        "date": "2019-08-08",
+        "title": "🐣 出生",
+        "description": "在比利时天堂动物园出生，与哥哥宝弟是双胞胎，母亲好好、父亲星徽"
+      },
+      {
+        "date": "2020-03-15",
+        "title": "🌟 首次亮相",
+        "description": "与哥哥宝弟首次公开亮相，甜美形象圈粉无数"
+      },
+      {
+        "date": "2023-08-08",
+        "title": "🎂 四岁生日",
+        "description": "天堂动物园为双胞胎举办盛大四岁生日会"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Bao%20Mei",
+    "photoCredit": ""
+  },
+  {
+    "id": "le-le-singapore",
+    "name": "叻叻",
+    "nameEn": "Le Le",
+    "nicknames": [
+      "新加坡小王子"
+    ],
+    "gender": "male",
+    "birthDate": "2021-08-14",
+    "birthPlace": "新加坡河川生态园",
+    "currentHome": "新加坡河川生态园",
+    "mother": "嘉嘉",
+    "father": "凯凯",
+    "weight": "约80kg",
+    "personality": [
+      "活泼",
+      "好奇",
+      "粘妈妈",
+      "胆子大"
+    ],
+    "claimToFame": "首只在新加坡出生的大熊猫幼崽",
+    "funFacts": [
+      "2021年8月出生，是首只在新加坡出生的大熊猫",
+      "名字'叻叻'源自新加坡旧称'石叻坡'，有'聪明'之意",
+      "出生时新加坡全国投票取名，上百万人参与",
+      "他的成长过程在新加坡引发全民关注热潮"
+    ],
+    "tags": [
+      "新加坡",
+      "海外",
+      "首只",
+      "新生代"
+    ],
+    "imageUrl": "/pandas/le-le-singapore.jpg",
+    "spectacleNumber": "1310",
+    "familyId": "jia-jia-line",
+    "life_events": [
+      {
+        "date": "2021-08-14",
+        "title": "🐣 出生",
+        "description": "在新加坡河川生态园出生，是首只在新加坡出生的大熊猫，母亲嘉嘉、父亲凯凯"
+      },
+      {
+        "date": "2021-12-30",
+        "title": "🌟 命名公布",
+        "description": "新加坡百万民众投票命名为'叻叻'，源自新加坡旧称"
+      },
+      {
+        "date": "2022-03-10",
+        "title": "👶 首次亮相",
+        "description": "首次对公众亮相，新加坡河川生态园游客量暴增"
+      },
+      {
+        "date": "2023-08-14",
+        "title": "🎂 两岁生日",
+        "description": "河川生态园举办盛大两岁生日会，新加坡总理发文祝贺"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Le%20Le",
+    "photoCredit": ""
+  },
+  {
+    "id": "rui-bao",
+    "name": "睿宝",
+    "nameEn": "Rui Bao",
+    "nicknames": [
+      "睿睿"
+    ],
+    "gender": "female",
+    "birthDate": "2023-07-07",
+    "birthPlace": "韩国三星爱宝乐园",
+    "currentHome": "韩国三星爱宝乐园",
+    "mother": "爱宝",
+    "father": "乐宝",
+    "weight": "约30kg",
+    "personality": [
+      "活泼",
+      "聪明",
+      "粘人",
+      "好奇"
+    ],
+    "claimToFame": "福宝的双胞胎妹妹之一，2023年韩国最轰动的熊猫宝宝",
+    "funFacts": [
+      "2023年7月与辉宝一起出生，是福宝的双胞胎妹妹",
+      "妈妈爱宝在韩国自然繁育诞下这对双胞胎，再次创造奇迹",
+      "名字'睿宝'和'辉宝'由中韩网友共同投票选出",
+      "出生后韩国再次掀起熊猫热潮，姜爷爷开心得合不拢嘴"
+    ],
+    "tags": [
+      "韩国",
+      "双胞胎",
+      "2023新生代",
+      "福宝妹妹"
+    ],
+    "imageUrl": "/pandas/rui-bao.jpg",
+    "spectacleNumber": "1350",
+    "familyId": "le-bao-line",
+    "life_events": [
+      {
+        "date": "2023-07-07",
+        "title": "🐣 出生",
+        "description": "在韩国三星爱宝乐园出生，与辉宝是双胞胎，母亲爱宝、父亲乐宝，姐姐福宝"
+      },
+      {
+        "date": "2023-10-15",
+        "title": "👶 首次公开",
+        "description": "与辉宝首次向公众亮相，韩国媒体全程直播"
+      },
+      {
+        "date": "2024-07-07",
+        "title": "🎂 一周岁",
+        "description": "爱宝乐园举办盛大周岁生日会，韩国粉丝蜂拥而至"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Rui%20Bao",
+    "photoCredit": ""
+  },
+  {
+    "id": "hui-bao",
+    "name": "辉宝",
+    "nameEn": "Hui Bao",
+    "nicknames": [
+      "辉辉"
+    ],
+    "gender": "female",
+    "birthDate": "2023-07-07",
+    "birthPlace": "韩国三星爱宝乐园",
+    "currentHome": "韩国三星爱宝乐园",
+    "mother": "爱宝",
+    "father": "乐宝",
+    "weight": "约30kg",
+    "personality": [
+      "温柔",
+      "安静",
+      "粘姐姐",
+      "可爱"
+    ],
+    "claimToFame": "福宝的双胞胎妹妹之一，2023年韩国最轰动的熊猫宝宝",
+    "funFacts": [
+      "2023年7月与睿宝一起出生，是福宝的双胞胎妹妹",
+      "和姐姐睿宝性格互补，辉宝更安静温柔",
+      "姜爷爷对这对双胞胎宠爱有加，称她们为'宝贝中的宝贝'",
+      "福宝2024年回中国后，双胞胎成为韩国熊猫粉丝新的精神寄托"
+    ],
+    "tags": [
+      "韩国",
+      "双胞胎",
+      "2023新生代",
+      "福宝妹妹"
+    ],
+    "imageUrl": "/pandas/hui-bao.jpg",
+    "spectacleNumber": "1351",
+    "familyId": "le-bao-line",
+    "life_events": [
+      {
+        "date": "2023-07-07",
+        "title": "🐣 出生",
+        "description": "在韩国三星爱宝乐园出生，与睿宝是双胞胎，母亲爱宝、父亲乐宝，姐姐福宝"
+      },
+      {
+        "date": "2023-10-15",
+        "title": "👶 首次公开",
+        "description": "与睿宝首次向公众亮相，因温柔可爱的性格圈粉无数"
+      },
+      {
+        "date": "2024-07-07",
+        "title": "🎂 一周岁",
+        "description": "爱宝乐园举办盛大周岁生日会"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Hui%20Bao",
+    "photoCredit": ""
+  },
+  {
+    "id": "katyusha",
+    "name": "喀秋莎",
+    "nameEn": "Katyusha",
+    "nicknames": [
+      "喀秋莎小公主",
+      "莫斯科之花"
+    ],
+    "gender": "female",
+    "birthDate": "2023-08-24",
+    "birthPlace": "俄罗斯莫斯科动物园",
+    "currentHome": "俄罗斯莫斯科动物园",
+    "mother": "丁丁",
+    "father": "如意",
+    "weight": "约25kg",
+    "personality": [
+      "活泼",
+      "勇敢",
+      "适应力强",
+      "爱雪"
+    ],
+    "claimToFame": "首只在俄罗斯出生的大熊猫幼崽，诞生即成为国家明星",
+    "funFacts": [
+      "2023年8月在莫斯科动物园出生，是俄罗斯历史上第一只熊猫幼崽",
+      "名字'喀秋莎'由俄罗斯全民投票选出，源于俄罗斯经典民歌",
+      "妈妈丁丁和爸爸如意是2019年旅居莫斯科的熊猫夫妇",
+      "出生时正值中俄熊猫合作15周年，被两国视为友谊象征"
+    ],
+    "tags": [
+      "俄罗斯",
+      "莫斯科",
+      "2023新生代",
+      "首只"
+    ],
+    "imageUrl": "/pandas/katyusha.jpg",
+    "spectacleNumber": "1360",
+    "familyId": "moscow-line",
+    "life_events": [
+      {
+        "date": "2023-08-24",
+        "title": "🐣 出生",
+        "description": "在俄罗斯莫斯科动物园出生，是俄罗斯首只大熊猫幼崽，母亲丁丁、父亲如意"
+      },
+      {
+        "date": "2023-12-02",
+        "title": "🌟 命名公布",
+        "description": "俄罗斯全民投票命名为'喀秋莎'，超过38万人参与投票"
+      },
+      {
+        "date": "2024-03-08",
+        "title": "👶 首次亮相",
+        "description": "在莫斯科动物园首次公开亮相，俄罗斯民众排长队参观"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Katyusha",
+    "photoCredit": ""
+  },
+  {
+    "id": "yu-ai",
+    "name": "渝爱",
+    "nameEn": "Yu Ai",
+    "nicknames": [
+      "爱爱",
+      "重庆小公主"
+    ],
+    "gender": "female",
+    "birthDate": "2022-07-22",
+    "birthPlace": "重庆动物园",
+    "currentHome": "重庆动物园",
+    "mother": "二顺",
+    "father": "青青",
+    "weight": "约80kg",
+    "personality": [
+      "文静",
+      "甜美",
+      "粘哥哥",
+      "温柔"
+    ],
+    "claimToFame": "渝可的双胞胎妹妹，重庆动物园龙凤胎中的小公主",
+    "funFacts": [
+      "与哥哥渝可是重庆动物园的明星龙凤胎",
+      "妈妈二顺是从加拿大回国的海归熊猫",
+      "性格比哥哥渝可更温柔安静，经常被哥哥逗着玩",
+      "重庆动物园为这对龙凤胎专门改造了熊猫馆"
+    ],
+    "tags": [
+      "重庆",
+      "双胞胎",
+      "龙凤胎",
+      "新生代"
+    ],
+    "imageUrl": "/pandas/yu-ai.jpg",
+    "spectacleNumber": "1161",
+    "familyId": "er-shun-line",
+    "life_events": [
+      {
+        "date": "2022-07-22",
+        "title": "🐣 出生",
+        "description": "在重庆动物园出生，与哥哥渝可是龙凤胎，母亲二顺、父亲青青"
+      },
+      {
+        "date": "2023-03-15",
+        "title": "🌟 正式命名",
+        "description": "经网络投票命名为'渝爱'，与哥哥渝可呼应"
+      },
+      {
+        "date": "2023-07-22",
+        "title": "🎂 一周岁",
+        "description": "重庆动物园为龙凤胎举办盛大周岁生日会"
+      }
+    ],
+    "photoUrl": "/pandas/yu-ai.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/yu-ai.jpg", "credit": "" },
+      { "url": "/pandas/yu-ai-2.jpg", "credit": "" },
+      { "url": "/pandas/yu-ai-3.jpg", "credit": "" },
+      { "url": "/pandas/yu-ai-4.jpg", "credit": "" }
+    ]
+  },
+  {
+    "id": "mang-can-can",
+    "name": "莽灿灿",
+    "nameEn": "Mang Can Can",
+    "nicknames": [
+      "灿灿"
+    ],
+    "gender": "male",
+    "birthDate": "2023-07-06",
     "birthPlace": "重庆动物园",
     "currentHome": "重庆动物园",
     "mother": "莽仔",
     "father": "未知",
-    "weight": "约85kg",
-    "personality": ["调皮", "爱闹", "粘妹妹", "活泼"],
-    "claimToFame": "重庆动物园的明星熊猫，和双胞胎妹妹渝爱一起长大",
-    "funFacts": [
-      "和妹妹渝爱是重庆动物园的'龙凤胎明星'",
-      "从小和妹妹形影不离，感情特别好",
-      "特别喜欢爬树，经常在树上不下来",
-      "被重庆粉丝称为'渝可小霸王'"
+    "weight": "约30kg",
+    "personality": [
+      "活泼",
+      "调皮",
+      "好动",
+      "爱玩"
     ],
-    "tags": ["重庆", "双胞胎", "龙凤胎"],
-    "imageUrl": "/pandas/yu-ke.jpg",
-    "spectacleNumber": "1160",
+    "claimToFame": "2023年重庆动物园新生代熊猫宝宝，性格活泼好动走红",
+    "funFacts": [
+      "2023年7月出生，妈妈莽仔是重庆动物园的资深熊猫妈妈",
+      "名字'灿灿'寓意灿烂阳光，由重庆市民投票选出",
+      "是重庆动物园2023年繁育计划中唯一的熊猫宝宝",
+      "从小精力旺盛，是重庆动物园公认的'小淘气'"
+    ],
+    "tags": [
+      "重庆",
+      "2023新生代",
+      "调皮"
+    ],
+    "imageUrl": "/pandas/mang-can-can.jpg",
+    "spectacleNumber": "1355",
     "familyId": "mang-zai-line",
     "life_events": [
-      { "date": "2019-06-23", "title": "🐣 出生", "description": "在重庆动物园出生，与妹妹渝爱是龙凤胎" },
-      { "date": "2020-01-15", "title": "🌟 首次亮相", "description": "和妹妹渝爱一起首次公开亮相，萌翻重庆" },
-      { "date": "2023-04-10", "title": "📱 网络走红", "description": "和妹妹的日常互动视频全网爆火，重庆动物园游客暴增" }
+      {
+        "date": "2023-07-06",
+        "title": "🐣 出生",
+        "description": "在重庆动物园出生，母亲莽仔"
+      },
+      {
+        "date": "2023-10-20",
+        "title": "🌟 命名公布",
+        "description": "重庆市民投票命名为'莽灿灿'，寓意灿烂阳光"
+      },
+      {
+        "date": "2024-01-15",
+        "title": "👶 首次亮相",
+        "description": "首次对公众亮相，活泼好动的性格迅速圈粉"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Mang%20Can%20Can",
+    "photoCredit": ""
+  },
+  {
+    "id": "miao-yin",
+    "name": "妙音",
+    "nameEn": "Miao Yin",
+    "nicknames": [
+      "妙妙",
+      "大连小仙女"
+    ],
+    "gender": "female",
+    "birthDate": "2010-08-09",
+    "birthPlace": "中国大熊猫保护研究中心",
+    "currentHome": "大连森林动物园",
+    "mother": "未知",
+    "father": "未知",
+    "weight": "约90kg",
+    "personality": [
+      "优雅",
+      "文静",
+      "温和",
+      "甜美"
+    ],
+    "claimToFame": "大连三宝中最优雅的女熊，飞云和金虎的同伴",
+    "funFacts": [
+      "与飞云、金虎并称'大连三宝'",
+      "性格是三宝中最温柔乖顺的，从不参与飞云和金虎的'战争'",
+      "长相甜美，被大连粉丝称为'小仙女'",
+      "喜欢安静地吃竹子和晒太阳，是佛系熊猫代表"
+    ],
+    "tags": [
+      "大连",
+      "三宝",
+      "优雅",
+      "佛系"
+    ],
+    "imageUrl": "/pandas/miao-yin.jpg",
+    "spectacleNumber": "785",
+    "familyId": "miao-yin-line",
+    "life_events": [
+      {
+        "date": "2010-08-09",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生"
+      },
+      {
+        "date": "2012-09-21",
+        "title": "✈️ 抵达大连",
+        "description": "搬到大连森林动物园，与飞云、金虎组成大连三宝"
+      },
+      {
+        "date": "2020-11-01",
+        "title": "📱 三宝走红",
+        "description": "大连三宝视频在网上爆红，妙音因优雅性格被称为'小仙女'"
+      }
+    ],
+    "photoUrl": "/pandas/miao-yin.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/miao-yin.jpg", "credit": "" },
+      { "url": "/pandas/miao-yin-2.jpg", "credit": "" },
+      { "url": "/pandas/miao-yin-3.jpg", "credit": "" },
+      { "url": "/pandas/miao-yin-4.jpg", "credit": "" }
     ]
+  },
+  {
+    "id": "bei-chen",
+    "name": "北辰",
+    "nameEn": "Bei Chen",
+    "nicknames": [
+      "辰辰"
+    ],
+    "gender": "male",
+    "birthDate": "2023-06-20",
+    "birthPlace": "成都大熊猫繁育研究基地",
+    "currentHome": "成都大熊猫繁育研究基地",
+    "mother": "北川",
+    "father": "未知",
+    "weight": "约30kg",
+    "personality": [
+      "活泼",
+      "可爱",
+      "粘人",
+      "爱玩"
+    ],
+    "claimToFame": "2023年成都基地最受关注的新生熊猫之一，颜值超高走红",
+    "funFacts": [
+      "2023年6月出生，是成都基地2023年繁育季的明星宝宝",
+      "名字'北辰'取自北极星，寓意闪耀明亮",
+      "因超高的颜值和活泼性格迅速走红社交媒体",
+      "被粉丝称为'2023级最帅熊猫宝宝'"
+    ],
+    "tags": [
+      "成都",
+      "2023新生代",
+      "颜值"
+    ],
+    "imageUrl": "/pandas/bei-chen.jpg",
+    "spectacleNumber": "1358",
+    "familyId": "bei-chuan-line",
+    "life_events": [
+      {
+        "date": "2023-06-20",
+        "title": "🐣 出生",
+        "description": "在成都大熊猫繁育研究基地出生，母亲北川"
+      },
+      {
+        "date": "2023-09-15",
+        "title": "🌟 首次亮相",
+        "description": "在熊猫幼儿园首次亮相，因超高颜值迅速走红"
+      },
+      {
+        "date": "2024-06-20",
+        "title": "🎂 一周岁",
+        "description": "成都基地举办盛大周岁生日会"
+      }
+    ],
+    "photoUrl": "/pandas/bei-chen.jpg",
+    "photoCredit": "",
+    "gallery": [
+      { "url": "/pandas/bei-chen.jpg", "credit": "" },
+      { "url": "/pandas/bei-chen-2.jpg", "credit": "" },
+      { "url": "/pandas/bei-chen-3.jpg", "credit": "" },
+      { "url": "/pandas/bei-chen-4.jpg", "credit": "" }
+    ]
+  },
+  {
+    "id": "yuan-yuan",
+    "name": "园园",
+    "nameEn": "Yuan Yuan",
+    "nicknames": [
+      "园爸爸",
+      "超级外公"
+    ],
+    "gender": "male",
+    "birthDate": "1999-08-23",
+    "birthPlace": "中国大熊猫保护研究中心",
+    "currentHome": "中国大熊猫保护研究中心卧龙神树坪基地",
+    "mother": "未知",
+    "father": "未知",
+    "weight": "约130kg",
+    "personality": [
+      "稳重",
+      "温和",
+      "经验丰富",
+      "基因优秀"
+    ],
+    "claimToFame": "乐宝的父亲，福宝的爷爷，熊猫界的重要种公",
+    "funFacts": [
+      "是乐宝（韩国福宝的爸爸）的父亲，即福宝的爷爷",
+      "是一代重要的种公熊猫，后代遍布全球",
+      "基因极其优秀，子女包括乐宝等多只旅外熊猫",
+      "虽不像儿孙那样成为顶流，但在繁育界地位极高"
+    ],
+    "tags": [
+      "资深",
+      "种公",
+      "福宝爷爷",
+      "繁育"
+    ],
+    "imageUrl": "/pandas/yuan-yuan.jpg",
+    "spectacleNumber": "460",
+    "familyId": "yuan-yuan-line",
+    "life_events": [
+      {
+        "date": "1999-08-23",
+        "title": "🐣 出生",
+        "description": "在中国大熊猫保护研究中心出生"
+      },
+      {
+        "date": "2012-07-28",
+        "title": "👶 乐宝出生",
+        "description": "儿子乐宝出生，后来旅居韩国成为福宝的爸爸"
+      },
+      {
+        "date": "2020-07-20",
+        "title": "👶 当爷爷了",
+        "description": "孙女福宝在韩国出生，园园升级为爷爷"
+      },
+      {
+        "date": "2023-07-07",
+        "title": "👶👶 再添孙女",
+        "description": "孙女睿宝和辉宝出生，园园的家族继续壮大"
+      }
+    ],
+    "photoUrl": "/api/panda-avatar?name=Yuan%20Yuan",
+    "photoCredit": ""
   }
 ]

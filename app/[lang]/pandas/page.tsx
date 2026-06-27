@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 import { getDictionary, type Lang } from '@/lib/i18n/server'
+import pandasData from '@/data/pandas.json'
+import JsonLd from '@/components/JsonLd'
+import { getPandaItemListSchema, getBreadcrumbSchema } from '@/lib/jsonld'
 
 export async function generateMetadata(
   { params }: { params: { lang: string } }
@@ -15,7 +18,7 @@ export async function generateMetadata(
       title: isEn ? 'Panda Guide | Panda World' : '熊猫图鉴 | Panda World',
       description: dict.pandas.metaOgDesc,
       type: 'website',
-      images: [{ url: '/panda-og.png', width: 1200, height: 630 }],
+      images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
     },
   }
 }
@@ -30,7 +33,7 @@ const PandasContent = dynamic(() => import('./PandasContent'), {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {Array.from({ length: 8 }).map((_, i) => (
           <div key={i} className="card p-5 animate-pulse">
-            <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-panda-100/60 dark:bg-panda-700/60" />
+            <div className="w-full h-48 mb-4 rounded-2xl bg-panda-100/60 dark:bg-panda-700/60" />
             <div className="h-6 w-20 mx-auto rounded-lg bg-panda-100/60 dark:bg-panda-700/60 mb-2" />
             <div className="h-3.5 w-24 mx-auto rounded bg-panda-50/80 dark:bg-panda-700/80 mb-3" />
             <div className="flex justify-center gap-1.5">
@@ -49,6 +52,16 @@ const PandasContent = dynamic(() => import('./PandasContent'), {
   ),
 })
 
-export default function PandasPage() {
-  return <PandasContent />
+export default function PandasPage({ params }: { params: { lang: string } }) {
+  const isEn = params.lang === 'en'
+  return (
+    <>
+      <JsonLd data={getPandaItemListSchema(pandasData as any, isEn ? 'en' : 'zh') as unknown as Record<string, unknown>} />
+      <JsonLd data={getBreadcrumbSchema([
+        { name: 'Panda World', url: 'https://panda-world-one.vercel.app' },
+        { name: isEn ? 'Panda Guide' : '熊猫图鉴', url: 'https://panda-world-one.vercel.app/pandas' },
+      ]) as unknown as Record<string, unknown>} />
+      <PandasContent />
+    </>
+  )
 }

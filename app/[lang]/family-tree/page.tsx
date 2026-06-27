@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
+import JsonLd from '@/components/JsonLd'
+import { getFamilyTreeSchema, getBreadcrumbSchema } from '@/lib/jsonld'
 
 export const metadata: Metadata = {
   title: '🌳 熊猫家族树',
@@ -8,7 +10,7 @@ export const metadata: Metadata = {
     title: '熊猫家族树 | Panda World',
     description: '全球首个熊猫家族谱系交互图',
     type: 'website',
-    images: [{ url: '/panda-og.png', width: 1200, height: 630 }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
 }
 
@@ -34,5 +36,14 @@ const FamilyTreeContent = dynamic(() => import('./FamilyTreeContent'), {
 })
 
 export default function FamilyTreePage() {
-  return <FamilyTreeContent />
+  return (
+    <>
+      <JsonLd data={getFamilyTreeSchema() as unknown as Record<string, unknown>} />
+      <JsonLd data={getBreadcrumbSchema([
+        { name: 'Panda World', url: 'https://panda-world-one.vercel.app' },
+        { name: '熊猫家族树', url: 'https://panda-world-one.vercel.app/family-tree' },
+      ]) as unknown as Record<string, unknown>} />
+      <FamilyTreeContent />
+    </>
+  )
 }

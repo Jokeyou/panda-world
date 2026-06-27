@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
+import JsonLd from '@/components/JsonLd'
+import { getBambooFaqSchema, getBreadcrumbSchema } from '@/lib/jsonld'
 
 export const metadata: Metadata = {
   title: '📚 熊猫百科 · 关于大熊猫你不知道的100件事',
@@ -8,7 +10,7 @@ export const metadata: Metadata = {
     title: '熊猫百科 | Panda World',
     description: '从演化起源到保护现状，一篇读懂大熊猫',
     type: 'article',
-    images: [{ url: '/panda-og.png', width: 1200, height: 630 }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
 }
 
@@ -52,6 +54,16 @@ const BambooContent = dynamic(() => import('./BambooContent'), {
   ),
 })
 
-export default function BambooPage() {
-  return <BambooContent />
+export default function BambooPage({ params }: { params: { lang: string } }) {
+  const isEn = params.lang === 'en'
+  return (
+    <>
+      <JsonLd data={getBambooFaqSchema(isEn ? 'en' : 'zh') as unknown as Record<string, unknown>} />
+      <JsonLd data={getBreadcrumbSchema([
+        { name: 'Panda World', url: 'https://panda-world-one.vercel.app' },
+        { name: isEn ? 'Panda Wiki' : '熊猫百科', url: 'https://panda-world-one.vercel.app/bamboo' },
+      ]) as unknown as Record<string, unknown>} />
+      <BambooContent />
+    </>
+  )
 }

@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import pandas from '@/data/pandas.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://pandaworld.vercel.app'
+  const baseUrl = 'https://panda-world-one.vercel.app'
 
   const staticRoutes = [
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 1 },

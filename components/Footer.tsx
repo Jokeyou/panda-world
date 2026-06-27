@@ -26,6 +26,7 @@ export default function Footer() {
               <a href="/bamboo" className="block hover:text-white transition-colors">熊猫百科</a>
               <a href="/family-tree" className="block hover:text-white transition-colors">家族树</a>
               <a href="/mbti" className="block hover:text-white transition-colors">🐼 MBTI 测试</a>
+              <a href="/birthdays" className="block hover:text-white transition-colors">🎂 生日追踪</a>
             </div>
           </div>
 

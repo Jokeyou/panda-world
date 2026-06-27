@@ -2,11 +2,12 @@
 
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
-import { Camera, BookOpen, Network, Sparkles, ArrowRight, MapPin, Eye } from 'lucide-react'
+import { Camera, BookOpen, Network, Sparkles, ArrowRight, MapPin, Eye, Gift } from 'lucide-react'
 import streams from '@/data/streams.json'
 import pandas from '@/data/pandas.json'
 import PandaAvatar from '@/components/PandaAvatar'
 import { useTranslation } from '@/lib/i18n'
+import type { Lang } from '@/lib/i18n'
 
 const HeroSection = dynamic(() => import('@/components/HeroSection'), {
   loading: () => (
@@ -29,7 +30,7 @@ const liveStreams = streams.filter(s => s.status === 'live').slice(0, 3)
 const liveCount = streams.filter(s => s.status === 'live').length
 
 export default function HomePageClient() {
-  const { t } = useTranslation()
+  const { t, lang } = useTranslation()
 
   return (
     <div>
@@ -106,6 +107,9 @@ export default function HomePageClient() {
           </div>
         </div>
       </section>
+
+      {/* ===== BIRTHDAY PANDAS ===== */}
+      <BirthdaySection t={t} lang={lang} />
 
       {/* ===== MBTI CTA ===== */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
@@ -220,5 +224,95 @@ function FeatureCard({ icon, title, desc }: { icon: React.ReactNode; title: stri
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-panda-300 leading-relaxed">{desc}</p>
     </div>
+  )
+}
+
+// ─── Birthday section ──────────────────────────────────────────────
+
+const EN_MONTHS = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+]
+
+function BirthdaySection({ t, lang }: { t: (key: string, vars?: Record<string, string | number>) => string; lang: Lang }) {
+  const now = new Date()
+  const currentMonth = now.getMonth() + 1 // 1–12
+  const currentYear = now.getFullYear()
+  const currentDay = now.getDate()
+
+  const birthdayPandas = pandas
+    .filter(p => {
+      if (!p.birthDate || p.birthDate === 'N/A') return false
+      const month = parseInt(p.birthDate.split('-')[1])
+      return month === currentMonth
+    })
+    .map(p => {
+      const parts = p.birthDate!.split('-')
+      const birthYear = parseInt(parts[0])
+      const birthMonth = parseInt(parts[1])
+      const birthDay = parseInt(parts[2])
+      const age = currentYear - birthYear
+      const isToday = birthMonth === currentMonth && birthDay === currentDay
+
+      const dateStr = lang === 'en'
+        ? `${EN_MONTHS[birthMonth - 1]} ${birthDay}`
+        : `${birthMonth}月${birthDay}日`
+
+      return { ...p, age, dateStr, isToday }
+    })
+
+  if (birthdayPandas.length === 0) return null
+
+  return (
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+      <div className="mb-6 sm:mb-8">
+        <h2 className="text-2xl sm:text-3xl font-bold text-panda-900 dark:text-panda-100">
+          {t('home.birthdaySection.title')}
+        </h2>
+        <p className="text-sm sm:text-base text-panda-500 dark:text-panda-400 mt-1">
+          {t('home.birthdaySection.subtitle')}
+        </p>
+      </div>
+
+      {/* Horizontal scroll on mobile, grid on desktop */}
+      <div className="flex overflow-x-auto gap-4 pb-4 snap-x snap-mandatory
+                      scrollbar-thin
+                      md:grid md:grid-cols-2 lg:grid-cols-3 md:overflow-x-visible md:snap-none md:pb-0">
+        {birthdayPandas.map(panda => (
+          <Link
+            key={panda.id}
+            href={lang === 'en' ? `/en/pandas/${panda.id}` : `/pandas/${panda.id}`}
+            className="card card-hover p-4 sm:p-5 group block shrink-0 w-[200px] snap-start
+                       md:w-auto md:shrink"
+          >
+            <div className="w-20 h-20 mx-auto mb-3 group-hover:scale-110 transition-transform">
+              <PandaAvatar data={panda} size={80} />
+            </div>
+
+            <h3 className="text-base font-bold text-center text-panda-900 dark:text-panda-100 group-hover:text-bamboo-700 transition-colors">
+              {panda.name}
+            </h3>
+            <p className="text-xs text-center text-panda-400 dark:text-panda-500 mt-0.5">
+              {panda.nameEn}
+            </p>
+
+            <div className="flex items-center justify-center gap-2 mt-3 flex-wrap">
+              {panda.isToday && (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-bold bg-amber-400 text-amber-900 animate-bounce-soft">
+                  🎉 {t('birthdays.today')}
+                </span>
+              )}
+              <span className="inline-flex items-center gap-1 text-xs text-panda-500 dark:text-panda-400">
+                <Gift size={12} />
+                {panda.dateStr}
+              </span>
+              <span className="text-xs font-medium text-bamboo-600 dark:text-bamboo-400">
+                {t('birthdays.age', { age: panda.age })}
+              </span>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
   )
 }

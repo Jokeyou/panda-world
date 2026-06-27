@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import HomePageClient from '@/components/HomePageClient'
+import JsonLd from '@/components/JsonLd'
+import { getHomePageSchema, getBreadcrumbSchema } from '@/lib/jsonld'
 
 export const metadata: Metadata = {
   title: '全球大熊猫直播聚合 · 图鉴 · 家族树',
@@ -25,5 +27,13 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  return <HomePageClient />
+  return (
+    <>
+      <JsonLd data={getHomePageSchema() as unknown as Record<string, unknown>} />
+      <JsonLd data={getBreadcrumbSchema([
+        { name: 'Panda World', url: 'https://panda-world-one.vercel.app' },
+      ]) as unknown as Record<string, unknown>} />
+      <HomePageClient />
+    </>
+  )
 }

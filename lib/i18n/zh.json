@@ -9,6 +9,7 @@
     "bamboo": "熊猫百科",
     "familyTree": "家族树",
     "mbti": "🐼 MBTI",
+    "birthdays": "🎂 生日追踪",
     "ipanda": "iPanda 官方",
     "searchPlaceholder": "搜索熊猫…",
     "searchEmpty": "未找到匹配的熊猫 🐾",
@@ -21,7 +22,8 @@
     "pandas": "熊猫图鉴",
     "bamboo": "熊猫百科",
     "familyTree": "家族树",
-    "mbti": "🐼 MBTI"
+    "mbti": "🐼 MBTI",
+    "birthdays": "🎂 生日追踪"
   },
   "home": {
     "hero": {
@@ -48,6 +50,10 @@
       "title": "⭐ 明星熊猫",
       "subtitle": "认识全球最火的熊猫们",
       "viewAll": "查看全部"
+    },
+    "birthdaySection": {
+      "title": "🎂 本月寿星",
+      "subtitle": "这个月过生日的大熊猫们，一起祝它们生日快乐！"
     },
     "mbtiCta": {
       "badge": "🔥 爆款测试",
@@ -109,6 +115,11 @@
     "sameFamily": "同家族",
     "commonTraits": "{count}个共同性格",
     "notFound": "未找到",
+    "photoGallery": "📸 精彩相册",
+    "photoGalleryEmpty": "暂无相册图片",
+    "photoGalleryClose": "关闭",
+    "photoGalleryPrev": "上一张",
+    "photoGalleryNext": "下一张",
     "metaDesc": "{name}（{nameEn}）——{claimToFame}。出生地：{birthPlace}，现居：{currentHome}。"
   },
   "live": {
@@ -193,11 +204,41 @@
     "retry": "再测一次",
     "learnMore": "想了解更多？",
     "viewPanda": "去看看真正的{name} →",
-    "shareText": "你也来测测→ https://pandaworld.vercel.app/mbti",
+    "shareText": "你也来测测→ https://panda-world-one.vercel.app/mbti",
     "shareTitle": "🐼 熊猫 MBTI 测试",
     "copied": "分享文案已复制到剪贴板！",
     "metaTitle": "🐼 熊猫 MBTI 测试",
     "metaDesc": "5道趣味题，30秒找到你的专属熊猫人格！花花、萌兰、福宝...你会是哪一只？生成分享卡片，和朋友一起玩！"
+  },
+  "birthdays": {
+    "title": "🎂 生日追踪",
+    "subtitle": "全年日历视图，追踪每只大熊猫的生日。再也不错过任何一只熊猫的生日！",
+    "daysUntil": "还有 {count} 天",
+    "today": "🎉 今天生日！",
+    "age": "{age} 岁",
+    "noBirthday": "本月暂无熊猫过生日 🐾",
+    "unknownBirthDate": "生日未知",
+    "monthLabels": {
+      "1": "一月",
+      "2": "二月",
+      "3": "三月",
+      "4": "四月",
+      "5": "五月",
+      "6": "六月",
+      "7": "七月",
+      "8": "八月",
+      "9": "九月",
+      "10": "十月",
+      "11": "十一月",
+      "12": "十二月"
+    },
+    "metaTitle": "🎂 生日追踪 · 大熊猫生日日历",
+    "metaDesc": "全年大熊猫生日日历。追踪每一只明星熊猫的生日，按月份查看，不错过任何一只熊猫的生日！",
+    "legend": {
+      "today": "今天生日",
+      "thisMonth": "本月生日",
+      "upcoming": "即将到来"
+    }
   },
   "footer": {
     "desc": "全球大熊猫直播聚合平台 · 最全熊猫图鉴 · 家族树 · 趣味测试。让全世界的熊猫爱好者，在一个地方看遍所有熊猫。",

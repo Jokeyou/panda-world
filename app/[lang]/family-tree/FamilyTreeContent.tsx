@@ -130,6 +130,12 @@ export default function FamilyTreeContent() {
   const containerRef = useRef<HTMLDivElement>(null)
 
   const nodes = useMemo(() => buildTree(), [])
+  const svgDims = useMemo(() => {
+    const cols = 3
+    const rows = Math.ceil(families.length / cols)
+    const h = Math.max(900, rows * 340 + 160)
+    return { width: 1600, height: h }
+  }, [])
   const colors: Record<string, string> = {}
   families.forEach(f => { colors[f.id] = f.color })
 
@@ -394,7 +400,7 @@ export default function FamilyTreeContent() {
             }}
           >
             <svg
-              viewBox="0 0 1600 900"
+              viewBox={`0 0 ${svgDims.width} ${svgDims.height}`}
               className="block"
               style={{ minWidth: '800px', height: 'auto' }}
             >

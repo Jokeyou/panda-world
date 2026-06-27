@@ -34,7 +34,7 @@ const mbtiShareTemplates: Record<string, (data: MbtiShareData) => string> = {
 export function getMbtiShareText(
   data: MbtiShareData,
   lang: 'zh' | 'en' = 'zh',
-  siteUrl: string = 'https://pandaworld.vercel.app'
+  siteUrl: string = 'https://panda-world-one.vercel.app'
 ): ShareText {
   const template = mbtiShareTemplates[lang] || mbtiShareTemplates['zh']
   return {
@@ -54,7 +54,7 @@ export function getMbtiShareText(
  */
 export function getHomeShareText(
   lang: 'zh' | 'en' = 'zh',
-  siteUrl: string = 'https://pandaworld.vercel.app'
+  siteUrl: string = 'https://panda-world-one.vercel.app'
 ): ShareText {
   if (lang === 'en') {
     return {
@@ -81,7 +81,7 @@ export function getHomeShareText(
  */
 export function getPandasShareText(
   lang: 'zh' | 'en' = 'zh',
-  siteUrl: string = 'https://pandaworld.vercel.app'
+  siteUrl: string = 'https://panda-world-one.vercel.app'
 ): ShareText {
   if (lang === 'en') {
     return {

@@ -29,8 +29,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: '邮箱',
-    value: 'hello@pandaworld.vercel.app',
-    href: 'mailto:hello@pandaworld.vercel.app',
+    value: 'hello@panda-world-one.vercel.app',
+    href: 'mailto:hello@panda-world-one.vercel.app',
     color: 'text-blue-600 dark:text-blue-400',
     bg: 'bg-blue-50 dark:bg-blue-900/20',
   },

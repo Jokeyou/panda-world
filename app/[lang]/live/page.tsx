@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
+import JsonLd from '@/components/JsonLd'
+import { getLiveCollectionSchema, getBreadcrumbSchema } from '@/lib/jsonld'
 
 const LiveContent = dynamic(() => import('./LiveContent'), {
   loading: () => (
@@ -58,5 +60,14 @@ export const metadata: Metadata = {
 }
 
 export default function LivePage() {
-  return <LiveContent />
+  return (
+    <>
+      <JsonLd data={getLiveCollectionSchema() as unknown as Record<string, unknown>} />
+      <JsonLd data={getBreadcrumbSchema([
+        { name: 'Panda World', url: 'https://panda-world-one.vercel.app' },
+        { name: '全球熊猫直播间', url: 'https://panda-world-one.vercel.app/live' },
+      ]) as unknown as Record<string, unknown>} />
+      <LiveContent />
+    </>
+  )
 }
